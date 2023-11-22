@@ -26,6 +26,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import theme from "assets/theme";
 import Home from "layouts/pages/home";
 import Phineas from "layouts/pages/projects/phineas"
+import Fossbot from "pages/Projects/Fossbot";
 
 // Material Kit 2 React routes
 import routes from "routes";
@@ -59,7 +60,6 @@ export default function App() {
         {getRoutes(routes)}
         <Route path="/" element={<Home />} />
         <Route path="*" element={<Navigate to="/" />} />
-        <Route path="/projects/phineas" element={<Phineas />} />
       </Routes>
     </ThemeProvider>
   );

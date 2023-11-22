@@ -45,7 +45,7 @@ import post4 from "assets/images/examples/blog2.jpg";
 import logo1 from "assets/images/logos/hot_transp.png"
 import logo2 from "assets/images/logos/huaLogoSmall.png"
 
-function Phineas() {
+function Firefighter() {
   return (
     <>
       <DefaultNavbar
@@ -81,7 +81,7 @@ function Phineas() {
               },
             })}
           >
-            PHINEAS{""}
+            FIREFIGHTER TURRET{""}
           </MKTypography>
         </MKBox>
         <Card
@@ -259,4 +259,4 @@ function Phineas() {
   );
 }
 
-export default Phineas;
+export default Firefighter;

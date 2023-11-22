@@ -47,7 +47,7 @@ import footerRoutes from "footer.routes";
 
 // Images
 import bgImage from "assets/images/logos/huaBanner.jpg";
-import logo from "assets/images/logos/hotLogo.png";
+import logo from "assets/images/logos/hot_white.png";
 
 // Import necessary Font Awesome components
 // import { library } from "@fortawesome/fontawesome-svg-core";
