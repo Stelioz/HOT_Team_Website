@@ -32,6 +32,8 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import Footer from "examples/Footers/CenteredFooter";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { icon } from '@fortawesome/fontawesome-svg-core/import.macro';
+import { PhotoProvider, PhotoView } from 'react-photo-view';
+import 'react-photo-view/dist/react-photo-view.css';
 
 // Routes
 import routes from "routes";
@@ -99,34 +101,52 @@ function Firefighter() {
           <MKBox component="section" py={3}>
 
             <Container>
-              <MKTypography variant="h3" color="black" ml={2} mb={3}>
+              <MKTypography variant="h3" color="black" ml={3} mb={3}>
                 About the Project
               </MKTypography>
-              <Grid container spacing={3}>
-                <Grid item ml={2} xs={12} sm={12} lg={12}>
-                  <MKTypography variant="body1" fontWeight="light" color="black">
-                    Introducing a cutting-edge robot meticulously crafted with advanced technologies, this innovative creation boasts an impressive array of features.
-                    Equipped with speech recognition and voice commands, a user-friendly interface, and the capability for space mapping, our robot is designed for
-                    seamless interaction. The integration of a Raspberry Pi 3 and a Kinect Sensor enables robust functionality utilizing Python with Pygame. The robot
-                    excels in diverse tasks, from following lines and detecting visual elements to reading QR-Codes and converting text to speech. Powered by the A*
-                    The PID controller ensures accuracy in movement, while face detection allows the robot to intelligently follow individuals. With the implementation
-                    of remote control movement and the notable feature of complete independence from a central computer, this robot represents a groundbreaking fusion of
-                    cutting-edge technologies for an exceptional user.
+              <Container>
+                  <MKTypography variant="body1" fontWeight="light" color="black" mb={2}>
+                    Introducing our cutting-edge fire detection system, featuring an AI model based on YOLO V3 for precise identification with two degrees of freedom
+                    targeting. This innovative system employs a camera for detection, verification through a laser, and seamless integration with a continuous supply
+                    of firefighting fluid, ensuring swift response. Engineered with adjustable flow and designed for easy reproduction using fire-resistant materials,
+                    our solution prioritizes safety. Powered by Python and C, with Arduino for electronics and control, and leveraging the capabilities of Nvidia Jetson
+                    Nano for AI fire detection, our system operates with full autonomy, providing a robust and reliable fire safety solution for diverse environments.
                   </MKTypography>
+                </Container>
+                <PhotoProvider>
+                <Grid container spacing={0}>
+                  <Grid item xs={12} sm={6} lg={3}>
+                    <PhotoView src={post1}>
+                      <CardMedia image={post1} sx={{ height: "416px" }} />
+                    </PhotoView>
+                  </Grid>
+                  <Grid item xs={12} sm={6} lg={3}>
+                    <PhotoView src={post2}>
+                      <CardMedia image={post2} sx={{ height: "200px" }} />
+                    </PhotoView>
+                    <PhotoView src={post3}>
+                      <CardMedia image={post3} sx={{ height: "200px" }} />
+                    </PhotoView>
+                  </Grid>
+                  <Grid item xs={12} sm={6} lg={6}>
+                    <PhotoView src={post1}>
+                      <CardMedia image={post1} sx={{ height: "200px" }} />
+                    </PhotoView>
+                    <Grid container spacing={0}>
+                      <Grid item xs={12} sm={6} lg={6}>
+                        <PhotoView src={post4}>
+                          <CardMedia image={post4} sx={{ height: "200px" }} />
+                        </PhotoView>
+                      </Grid>
+                      <Grid item xs={12} sm={6} lg={6}>
+                        <PhotoView src={post2}>
+                          <CardMedia image={post2} sx={{ height: "200px" }} />
+                        </PhotoView>
+                      </Grid>
+                    </Grid>
+                  </Grid>
                 </Grid>
-                <Grid item xs={12} sm={6} lg={3}>
-                  <CardMedia image={post1} sx={{ height: "200px" }} />
-                </Grid>
-                <Grid item xs={12} sm={6} lg={3}>
-                  <CardMedia image={post2} sx={{ height: "200px" }} />
-                </Grid>
-                <Grid item xs={12} sm={6} lg={3}>
-                  <CardMedia image={post3} sx={{ height: "200px" }} />
-                </Grid>
-                <Grid item xs={12} sm={6} lg={3}>
-                  <CardMedia image={post4} sx={{ height: "200px" }} />
-                </Grid>
-              </Grid>
+              </PhotoProvider>
             </Container>
 
             <Container>
@@ -139,69 +159,45 @@ function Firefighter() {
 
                     <List>
                       <ListItem>
-                        <FontAwesomeIcon icon={icon({ name: 'microphone' })} style={{ color: "#004978" }} />
+                        <FontAwesomeIcon icon={icon({ name: 'fire' })} style={{ color: "#004978" }} />
                         <MKTypography variant="body1" color="black" sx={{ marginLeft: "20px" }}>
-                          Speech Recognition and Voice Commands.
+                          Fire Detection Using a Camera Device.
                         </MKTypography>
                       </ListItem>
                       <ListItem>
                         <FontAwesomeIcon icon={icon({ name: 'chalkboard-user' })} style={{ color: "#004978" }} />
                         <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-                          User-Friendly Interface.
+                          AI Model Based on YOLO V3.
                         </MKTypography>
                       </ListItem>
                       <ListItem>
-                        <FontAwesomeIcon icon={icon({ name: 'map' })} style={{ color: "#004978" }} />
-                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "12px" }}>
-                          Space Mapping.
+                        <FontAwesomeIcon icon={icon({ name: 'up-down-left-right' })} style={{ color: "#004978" }} />
+                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "15px" }}>
+                          Targeting Capability with 2 Degrees of Freedom.
                         </MKTypography>
                       </ListItem>
                       <ListItem>
-                        <FontAwesomeIcon icon={icon({ name: 'lines-leaning' })} style={{ color: "#004978" }} />
-                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "22px" }}>
-                          Line Follower.
-                        </MKTypography>
-                      </ListItem>
-                      <ListItem>
-                        <FontAwesomeIcon icon={icon({ name: 'compass' })} style={{ color: "#004978" }} />
-                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "17px" }}>
-                          Detection and Orientation Towards Visual Elements.
-                        </MKTypography>
-                      </ListItem>
-                      <ListItem>
-                        <FontAwesomeIcon icon={icon({ name: 'qrcode' })} style={{ color: "#004978" }} />
+                        <FontAwesomeIcon icon={icon({ name: 'bullseye' })} style={{ color: "#004978" }} />
                         <MKTypography variant="body1" color="black" sx={{ marginLeft: "18px" }}>
-                          QR-Code Reading.
+                          Verification Using a Laser Device.
                         </MKTypography>
                       </ListItem>
                       <ListItem>
-                        <FontAwesomeIcon icon={icon({ name: 'comments' })} style={{ color: "#004978" }} />
-                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-                          Text-to-Speech Conversion.
+                        <FontAwesomeIcon icon={icon({ name: 'link' })} style={{ color: "#004978" }} />
+                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "13px" }}>
+                          Connection to a Continuous Supply of Firefighting Fluid.
                         </MKTypography>
                       </ListItem>
                       <ListItem>
-                        <FontAwesomeIcon icon={icon({ name: 'code' })} style={{ color: "#004978" }} />
-                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-                          Use of A* Algorithm with Depth Image for Spatial Navigation.
+                        <FontAwesomeIcon icon={icon({ name: 'bars-staggered' })} style={{ color: "#004978" }} />
+                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "17px" }}>
+                          Adjustable Flow.
                         </MKTypography>
                       </ListItem>
                       <ListItem>
-                        <FontAwesomeIcon icon={icon({ name: 'code' })} style={{ color: "#004978" }} />
-                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-                          Use of PID Controller Algorithm for Precision in Movement.
-                        </MKTypography>
-                      </ListItem>
-                      <ListItem>
-                        <FontAwesomeIcon icon={icon({ name: 'face-smile' })} style={{ color: "#004978" }} />
-                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "16px" }}>
-                          Face Detection with the Ability to Follow it.
-                        </MKTypography>
-                      </ListItem>
-                      <ListItem>
-                        <FontAwesomeIcon icon={icon({ name: 'house-laptop' })} style={{ color: "#004978" }} />
-                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-                          Remote Control Movement.
+                        <FontAwesomeIcon icon={icon({ name: 'diagram-predecessor' })} style={{ color: "#004978" }} />
+                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "15px" }}>
+                          Designed for Easy Reproduction with Fire-Resistant Materials.
                         </MKTypography>
                       </ListItem>
                     </List>
@@ -218,25 +214,25 @@ function Firefighter() {
                       <ListItem>
                         <FontAwesomeIcon icon={icon({ name: 'microchip' })} style={{ color: "#004978" }} />
                         <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-                          Raspberry Pi 3.
+                          Arduino for Electronics and Control.
                         </MKTypography>
                       </ListItem>
                       <ListItem>
                         <FontAwesomeIcon icon={icon({ name: 'eye' })} style={{ color: "#004978" }} />
                         <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-                          Microsoft Kinect Sensor.
+                          Nvidia Jetson Nano for AI Fire Detection.
                         </MKTypography>
                       </ListItem>
                       <ListItem>
                         <FontAwesomeIcon icon={icon({ name: 'code' })} style={{ color: "#004978" }} />
                         <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-                          Python with Pygame.
+                          Python and C.
                         </MKTypography>
                       </ListItem>
                       <ListItem>
                         <FontAwesomeIcon icon={icon({ name: 'laptop-code' })} style={{ color: "#004978" }} />
                         <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-                          Completely Independent from a Central Computer.
+                          Completely Independent Operation.
                         </MKTypography>
                       </ListItem>
                     </List>

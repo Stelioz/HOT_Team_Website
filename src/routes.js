@@ -73,6 +73,7 @@ import Firefighter from "pages/Projects/Firefighter";
 import Noa from "pages/Projects/NOA_Beyond_7I12";
 import Proteas from "pages/Projects/Proteas";
 import BFMC from "pages/Projects/Bosch_Challenge";
+import OurTeam from "pages/OurTeam";
 
 const routes = [
   {
@@ -80,14 +81,19 @@ const routes = [
     icon: <Icon>dashboard</Icon>,
     collapse: [
       {
-        name: "Phineas",
-        route: "/projects/phineas",
-        component: <Phineas />,
+        name: "Bosch Future Mobility",
+        route: "/projects/bfmc",
+        component: <BFMC />,
       },
       {
         name: "Firefighter Turret",
         route: "/projects/firefighter",
         component: <Firefighter />,
+      },
+      {
+        name: "Proteas",
+        route: "/projects/proteas",
+        component: <Proteas />,
       },
       {
         name: "FOSSbot",
@@ -100,14 +106,9 @@ const routes = [
         component: <Noa />,
       },
       {
-        name: "Proteas",
-        route: "/projects/proteas",
-        component: <Proteas />,
-      },
-      {
-        name: "Bosch Future Mobility",
-        route: "/projects/bfmc",
-        component: <BFMC />,
+        name: "Phineas",
+        route: "/projects/phineas",
+        component: <Phineas />,
       },
     ],
   },
@@ -272,8 +273,8 @@ const routes = [
   {
     name: "Our Team",
     icon: <Icon>groups</Icon>,
-    route: "/pages/landing-pages/about-us",
-    component: <AboutUs />,
+    route: "/ourteam",
+    component: <OurTeam />,
   },
   {
     name: "contact us",
@@ -284,7 +285,7 @@ const routes = [
   {
     name: "github",
     icon: <GitHubIcon />,
-    href: "https://www.github.com/creativetimofficial/material-kit-react",
+    href: "",
   },
 ];
 

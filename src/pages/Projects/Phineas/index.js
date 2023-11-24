@@ -32,6 +32,8 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import Footer from "examples/Footers/CenteredFooter";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { icon } from '@fortawesome/fontawesome-svg-core/import.macro';
+import { PhotoProvider, PhotoView } from 'react-photo-view';
+import 'react-photo-view/dist/react-photo-view.css';
 
 // Routes
 import routes from "routes";
@@ -99,34 +101,54 @@ function Phineas() {
           <MKBox component="section" py={3}>
 
             <Container>
-              <MKTypography variant="h3" color="black" ml={2} mb={3}>
+              <MKTypography variant="h3" color="black" ml={3} mb={3}>
                 About the Project
               </MKTypography>
-              <Grid container spacing={3}>
-                <Grid item ml={2} xs={12} sm={12} lg={12}>
-                  <MKTypography variant="body1" fontWeight="light" color="black">
-                    Introducing a cutting-edge robot meticulously crafted with advanced technologies, this innovative creation boasts an impressive array of features.
-                    Equipped with speech recognition and voice commands, a user-friendly interface, and the capability for space mapping, our robot is designed for
-                    seamless interaction. The integration of a Raspberry Pi 3 and a Kinect Sensor enables robust functionality utilizing Python with Pygame. The robot
-                    excels in diverse tasks, from following lines and detecting visual elements to reading QR-Codes and converting text to speech. Powered by the A*
-                    The PID controller ensures accuracy in movement, while face detection allows the robot to intelligently follow individuals. With the implementation
-                    of remote control movement and the notable feature of complete independence from a central computer, this robot represents a groundbreaking fusion of
-                    cutting-edge technologies for an exceptional user.
-                  </MKTypography>
+              <Container>
+                <MKTypography variant="body1" fontWeight="light" color="black" mb={2}>
+                  Introducing a cutting-edge robot meticulously crafted with advanced technologies, this innovative creation boasts an impressive array of features.
+                  Equipped with speech recognition and voice commands, a user-friendly interface, and the capability for space mapping, our robot is designed for
+                  seamless interaction. The integration of a Raspberry Pi 3 and a Kinect Sensor enables robust functionality utilizing Python with Pygame. The robot
+                  excels in diverse tasks, from following lines and detecting visual elements to reading QR-Codes and converting text to speech. Powered by the A*
+                  The PID controller ensures accuracy in movement, while face detection allows the robot to intelligently follow individuals. With the implementation
+                  of remote control movement and the notable feature of complete independence from a central computer, this robot represents a groundbreaking fusion of
+                  cutting-edge technologies for an exceptional user.
+                </MKTypography>
+              </Container>
+              <PhotoProvider>
+                <Grid container spacing={0}>
+                  <Grid item xs={12} sm={6} lg={3}>
+                    <PhotoView src={post1}>
+                      <CardMedia image={post1} sx={{ height: "416px" }} />
+                    </PhotoView>
+                  </Grid>
+                  <Grid item xs={12} sm={6} lg={3}>
+                    <PhotoView src={post2}>
+                      <CardMedia image={post2} sx={{ height: "200px" }} />
+                    </PhotoView>
+                    <PhotoView src={post3}>
+                      <CardMedia image={post3} sx={{ height: "200px" }} />
+                    </PhotoView>
+                  </Grid>
+                  <Grid item xs={12} sm={6} lg={6}>
+                    <PhotoView src={post1}>
+                      <CardMedia image={post1} sx={{ height: "200px" }} />
+                    </PhotoView>
+                    <Grid container spacing={0}>
+                      <Grid item xs={12} sm={6} lg={6}>
+                        <PhotoView src={post4}>
+                          <CardMedia image={post4} sx={{ height: "200px" }} />
+                        </PhotoView>
+                      </Grid>
+                      <Grid item xs={12} sm={6} lg={6}>
+                        <PhotoView src={post2}>
+                          <CardMedia image={post2} sx={{ height: "200px" }} />
+                        </PhotoView>
+                      </Grid>
+                    </Grid>
+                  </Grid>
                 </Grid>
-                <Grid item xs={12} sm={6} lg={3}>
-                  <CardMedia image={post1} sx={{ height: "200px" }} />
-                </Grid>
-                <Grid item xs={12} sm={6} lg={3}>
-                  <CardMedia image={post2} sx={{ height: "200px" }} />
-                </Grid>
-                <Grid item xs={12} sm={6} lg={3}>
-                  <CardMedia image={post3} sx={{ height: "200px" }} />
-                </Grid>
-                <Grid item xs={12} sm={6} lg={3}>
-                  <CardMedia image={post4} sx={{ height: "200px" }} />
-                </Grid>
-              </Grid>
+              </PhotoProvider>
             </Container>
 
             <Container>

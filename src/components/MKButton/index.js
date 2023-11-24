@@ -60,6 +60,7 @@ MKButton.propTypes = {
     "error",
     "light",
     "dark",
+    "hua_blue"
   ]),
   circular: PropTypes.bool,
   iconOnly: PropTypes.bool,

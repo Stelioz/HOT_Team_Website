@@ -60,6 +60,7 @@ MKBox.propTypes = {
     "light",
     "dark",
     "none",
+    "hua_blue",
   ]),
 };
 

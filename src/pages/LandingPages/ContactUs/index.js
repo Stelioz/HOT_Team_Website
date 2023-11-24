@@ -24,14 +24,14 @@ import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
+import DefaultFooter from "examples/Footers/CenteredFooter";
 
 // Routes
 import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Image
-import bgImage from "assets/images/illustrations/illustration-reset.jpg";
+import bgImage from "assets/images/illustrations/generic.png";
 
 function ContactUs() {
   return (
@@ -39,12 +39,6 @@ function ContactUs() {
       <MKBox position="fixed" top="0.5rem" width="100%">
         <DefaultNavbar
           routes={routes}
-          action={{
-            type: "external",
-            route: "https://www.creative-tim.com/product/material-kit-react",
-            label: "free download",
-            color: "info",
-          }}
         />
       </MKBox>
       <Grid container spacing={3} alignItems="center">
@@ -81,8 +75,7 @@ function ContactUs() {
             mx={3}
           >
             <MKBox
-              variant="gradient"
-              bgColor="info"
+              bgColor="#004978"
               coloredShadow="info"
               borderRadius="lg"
               p={2}
@@ -130,7 +123,7 @@ function ContactUs() {
                   </Grid>
                 </Grid>
                 <Grid container item justifyContent="center" xs={12} mt={5} mb={2}>
-                  <MKButton type="submit" variant="gradient" color="info">
+                  <MKButton type="submit" color="hua_blue" >
                     Send Message
                   </MKButton>
                 </Grid>
