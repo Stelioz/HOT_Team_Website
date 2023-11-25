@@ -38,6 +38,7 @@ import routes from "routes";
 
 // Images
 import bgImage from "assets/images/city-profile.jpg";
+import underConst from "assets/images/illustrations/under-const-illu.png";
 import post1 from "assets/images/examples/testimonial-6-2.jpg";
 import post2 from "assets/images/examples/testimonial-6-3.jpg";
 import post3 from "assets/images/examples/blog-9-4.jpg";
@@ -98,7 +99,61 @@ function BFMC() {
 
           <MKBox component="section" py={3}>
 
-            <Container>
+            <Grid container spacing={3} alignItems="center">
+              <Grid item xs={12} lg={6}>
+                <MKBox
+                  display={{ xs: "none", lg: "flex" }}
+                  width="calc(100% - 2rem)"
+                  height="calc(100vh - 2rem)"
+                  borderRadius="lg"
+                  ml={2}
+                  mt={2}
+                  sx={{ backgroundImage: `url(${underConst})` }}
+                />
+              </Grid>
+              <Grid
+                item
+                xs={12}
+                sm={10}
+                md={7}
+                lg={6}
+                xl={4}
+                ml={{ xs: "auto", lg: 6 }}
+                mr={{ xs: "auto", lg: 6 }}
+              >
+                <MKBox
+                  bgColor="white"
+                  borderRadius="xl"
+                  shadow="lg"
+                  display="flex"
+                  flexDirection="column"
+                  justifyContent="center"
+                  mt={{ xs: 20, sm: 18, md: 20 }}
+                  mb={{ xs: 20, sm: 18, md: 20 }}
+                  mx={3}
+                >
+                  <MKBox
+                    bgColor="#fbec5d"
+                    coloredShadow="info"
+                    borderRadius="lg"
+                    p={2}
+                    mx={2}
+                    mt={-3}
+                  >
+                    <MKTypography variant="h3" color="black">
+                      UNDER CONSTRUCTION.
+                    </MKTypography>
+                  </MKBox>
+                  <MKBox p={3}>
+                    <MKTypography variant="body2" color="text" mb={3}>
+                      This section is under construction and will be up and running ASAP.
+                    </MKTypography>
+                  </MKBox>
+                </MKBox>
+              </Grid>
+            </Grid>
+
+            {/* <Container>
               <MKTypography variant="h3" color="black" ml={2} mb={3}>
                 About the Project
               </MKTypography>
@@ -249,7 +304,7 @@ function BFMC() {
                   </Container>
                 </Grid>
               </Grid>
-            </Container>
+            </Container> */}
           </MKBox>
         </Card>
         {/* <Contact /> */}

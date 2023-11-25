@@ -161,39 +161,69 @@ function Fossbot() {
 
         <List>
           <ListItem>
-            <FontAwesomeIcon icon={icon({ name: 'vector-square' })} style={{ color: "#004978" }} />
+            <FontAwesomeIcon icon={icon({ name: 'satellite-dish' })} style={{ color: "#004978" }} />
             <MKTypography variant="body1" color="black" sx={{ marginLeft: "15px" }}>
-              Articulated Design.
+              Sensors: Distance, Light, Noise, Temperature & Battery.
             </MKTypography>
           </ListItem>
           <ListItem>
-            <FontAwesomeIcon icon={icon({ name: 'swatchbook' })} style={{ color: "#004978" }} />
-            <MKTypography variant="body1" color="black" sx={{ marginLeft: "12px" }}>
-              Quick Assembly.
+            <FontAwesomeIcon icon={icon({ name: 'arrows-left-right-to-line' })} style={{ color: "#004978" }} />
+            <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
+              Dedicated Gap/Line Detection Sensors.
             </MKTypography>
           </ListItem>
           <ListItem>
             <FontAwesomeIcon icon={icon({ name: 'layer-group' })} style={{ color: "#004978" }} />
+            <MKTypography variant="body1" color="black" sx={{ marginLeft: "12px" }}>
+              3-Axis Accelerometer & Gyroscope.
+            </MKTypography>
+          </ListItem>
+          <ListItem>
+            <FontAwesomeIcon icon={icon({ name: 'volume-high' })} style={{ color: "#004978" }} />
             <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-              Easy and Stable Assembly Without Screws or Tools.
+              Speaker for Sound Message Playback.
+            </MKTypography>
+          </ListItem>
+          <ListItem>
+            <FontAwesomeIcon icon={icon({ name: 'marker' })} style={{ color: "#004978" }} />
+            <MKTypography variant="body1" color="black" sx={{ marginLeft: "15px" }}>
+              Special Slot for Attaching a Marker.
             </MKTypography>
           </ListItem>
           <ListItem>
             <FontAwesomeIcon icon={icon({ name: 'retweet' })} style={{ color: "#004978" }} />
-            <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-              Rearrangeable Components According to Application Needs.
+            <MKTypography variant="body1" color="black" sx={{ marginLeft: "13px" }}>
+              Dedicated Loop for Towing Objects.
             </MKTypography>
           </ListItem>
           <ListItem>
-            <FontAwesomeIcon icon={icon({ name: 'check-to-slot' })} style={{ color: "#004978" }} />
-            <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-              Dedicated Component Compartments for Easy Placement.
+            <FontAwesomeIcon icon={icon({ name: 'cubes-stacked' })} style={{ color: "#004978" }} />
+            <MKTypography variant="body1" color="black" sx={{ marginLeft: "17px" }}>
+              Surface for Attaching Lego.
+            </MKTypography>
+          </ListItem>
+          <ListItem>
+            <FontAwesomeIcon icon={icon({ name: 'layer-group' })} style={{ color: "#004978" }} />
+            <MKTypography variant="body1" color="black" sx={{ marginLeft: "12px" }}>
+              Detachable Cover for Easy Internal Access.
+            </MKTypography>
+          </ListItem>
+          <ListItem>
+            <FontAwesomeIcon icon={icon({ name: 'gears' })} style={{ color: "#004978" }} />
+            <MKTypography variant="body1" color="black" sx={{ marginLeft: "11px" }}>
+              Two Motors with Odometers.
+            </MKTypography>
+          </ListItem>
+          <ListItem>
+            <FontAwesomeIcon icon={icon({ name: 'car-battery' })} style={{ color: "#004978" }} />
+            <MKTypography variant="body1" color="black" sx={{ marginLeft: "15px" }}>
+              Three 18650 Lithium Batteries.
             </MKTypography>
           </ListItem>
           <ListItem>
             <FontAwesomeIcon icon={icon({ name: 'bolt' })} style={{ color: "#004978" }} />
-            <MKTypography variant="body1" color="black" sx={{ marginLeft: "15px" }}>
-              Protection of Electronic Components.
+            <MKTypography variant="body1" color="black" sx={{ marginLeft: "18px" }}>
+              Direct Recharging Capability Through the Robot.
             </MKTypography>
           </ListItem>
         </List>
@@ -209,20 +239,32 @@ function Fossbot() {
         <List>
           <ListItem>
             <FontAwesomeIcon icon={icon({ name: 'microchip' })} style={{ color: "#004978" }} />
-            <MKTypography variant="body1" color="black" sx={{ marginLeft: "15px" }}>
-              Raspberry Pi 3.
+            <MKTypography variant="body1" color="black" sx={{ marginLeft: "20px" }}>
+              Raspberry Pi 3/4 and Zero W.
             </MKTypography>
           </ListItem>
           <ListItem>
             <FontAwesomeIcon icon={icon({ name: 'code' })} style={{ color: "#004978" }} />
-            <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-              New Python Library.
+            <MKTypography variant="body1" color="black" sx={{ marginLeft: "15px" }}>
+              Python and Blockly.
             </MKTypography>
           </ListItem>
           <ListItem>
-            <FontAwesomeIcon icon={icon({ name: 'clipboard' })} style={{ color: "#004978" }} />
-            <MKTypography variant="body1" color="black" sx={{ marginLeft: "20px" }}>
-              Jupyter Notebook for Direct Code Execution.
+            <FontAwesomeIcon icon={icon({ name: 'laptop-code' })} style={{ color: "#004978" }} />
+            <MKTypography variant="body1" color="black" sx={{ marginLeft: "14px" }}>
+              Remote Control and Browser Access.
+            </MKTypography>
+          </ListItem>
+          <ListItem>
+            <FontAwesomeIcon icon={icon({ name: 'folder-tree' })} style={{ color: "#004978" }} />
+            <MKTypography variant="body1" color="black" sx={{ marginLeft: "16px" }}>
+              Dockerized Applications.
+            </MKTypography>
+          </ListItem>
+          <ListItem>
+            <FontAwesomeIcon icon={icon({ name: 'code-pull-request' })} style={{ color: "#004978" }} />
+            <MKTypography variant="body1" color="black" sx={{ marginLeft: "18px" }}>
+              Updates Through GitHub.
             </MKTypography>
           </ListItem>
         </List>
