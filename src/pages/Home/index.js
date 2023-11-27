@@ -124,7 +124,7 @@ function Home() {
             >
               HAROKOPIO OPEN TECHNOLOGIES{""}
             </MKTypography>
-            <MKTypography
+            {/* <MKTypography
               variant="body1"
               color="white"
               textAlign="center"
@@ -133,7 +133,7 @@ function Home() {
             >
               Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
               developers around the world.
-            </MKTypography>
+            </MKTypography> */}
           </Grid>
         </Container>
       </MKBox>
@@ -162,12 +162,12 @@ function Home() {
               <FilledInfoCard
                 // variant="gradient"
                 color="info"
-                icon="apps"
+                icon="smart_toy"
                 title="Phineas"
                 description="Guidance Robot Equipped with Kinect Sensor for Space Mapping and Optimal Pathfinding."
                 action={{
                   type: "internal",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/material-kit/",
+                  route: "projects/phineas",
                   label: "Read more",
                 }}
               />
@@ -175,12 +175,12 @@ function Home() {
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
                 color="info"
-                icon="apps"
+                icon="fire_extinguisher"
                 title="Firefighter"
                 description="AI-Powered Robotic Turret: Advanced Fire Detection and Suppression System."
                 action={{
-                  type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/datepicker/",
+                  type: "internal",
+                  route: "projects/firefighter",
                   label: "Read more",
                 }}
               />
@@ -188,12 +188,12 @@ function Home() {
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
                 color="info"
-                icon="apps"
+                icon="satellite_alt"
                 title="NOA Beyond 7I12"
                 description="A Prototype Cubesat Designed for the National Observatory of Athens."
                 action={{
-                  type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
+                  type: "internal",
+                  route: "projects/7I12",
                   label: "Read more",
                 }}
               />
@@ -201,12 +201,12 @@ function Home() {
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
                 color="info"
-                icon="precision_manufacturing"
+                icon="memory"
                 title="Proteas"
                 description="Modular Educational Robot with User-Friendly Component Rearrangement System."
                 action={{
-                  type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/datepicker/",
+                  type: "internal",
+                  route: "projects/proteas",
                   label: "Read more",
                 }}
               />
@@ -214,12 +214,12 @@ function Home() {
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
                 color="info"
-                icon="precision_manufacturing"
+                icon="memory"
                 title="FOSSbot"
                 description="Proteas Robot Evolution: Stable Configuration for Enhanced Educational Utility."
                 action={{
-                  type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/datepicker/",
+                  type: "internal",
+                  route: "projects/fossbot",
                   label: "Read more",
                 }}
               />

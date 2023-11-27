@@ -45,22 +45,23 @@ function MainArticle() {
       }}
     >
       <Container>
-        <Grid container item xs={12} lg={6} sx={{ ml: { xs: 0, lg: 6 } }}>
+        <Grid container item xs={12} lg={8} sx={{ ml: { xs: 0, lg: 6 } }}>
           <MKTypography variant="h4" color="white" fontWeight="bold">
-            Built by developers...
+            Our Newest Challenge!
           </MKTypography>
-          <MKTypography variant="h1" color="white" mb={1}>
-            Complex Documentation
+          <MKTypography variant="h1" color="white" mb={1} mt={1}>
+            BOSCH FUTURE MOBILITY
           </MKTypography>
-          <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
-            From colors, cards, typography to complex elements, you will find the full
-            documentation. Play with the utility classes and you will create unlimited combinations
-            for our components.
+          <MKTypography variant="body1" color="white" opacity={0.8} mb={3}>
+            BFMC is an international technical competition initiated by Bosch Engineering Center Cluj in 2017.
+            The competition invites student teams every year to develop autonomous driving and connectivity
+            algorithms on 1/10 scale vehicles, provided by the company, to navigate in a designated environment
+            simulating a miniature smart city.
           </MKTypography>
           <MKTypography
             component="a"
-            href="https://www.creative-tim.com/learning-lab/react/overview/material-kit/"
-            target="_blank"
+            href="projects/bfmc"
+            target="_self"
             rel="noreferrer"
             variant="body2"
             color="white"
@@ -80,7 +81,7 @@ function MainArticle() {
               },
             }}
           >
-            Read docs <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+            Read more <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
           </MKTypography>
         </Grid>
       </Container>

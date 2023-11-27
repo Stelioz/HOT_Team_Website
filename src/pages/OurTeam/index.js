@@ -52,10 +52,9 @@ import footerRoutes from "footer.routes";
 // Images
 import bgImage from "assets/images/logos/huaBanner.jpg";
 import logo from "assets/images/logos/hot_white.png";
-import post1 from "assets/images/examples/testimonial-6-2.jpg";
-import THpost1 from "assets/images/examples/THtestimonial-6-2.png";
-import post2 from "assets/images/examples/testimonial-6-3.jpg";
-import post3 from "assets/images/examples/blog-9-4.jpg";
+import post1 from "assets/images/ΗΟΤ/hotTeam.png";
+import post2 from "assets/images/ΗΟΤ/fossas1.jpg";
+import post3 from "assets/images/ΗΟΤ/fossas2.jpg";
 import post4 from "assets/images/examples/blog2.jpg";
 
 // Import necessary Font Awesome components
@@ -127,7 +126,7 @@ function OurTeam() {
             >
               HAROKOPIO OPEN TECHNOLOGIES{""}
             </MKTypography>
-            <MKTypography
+            {/* <MKTypography
               variant="body1"
               color="white"
               textAlign="center"
@@ -136,7 +135,7 @@ function OurTeam() {
             >
               Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
               developers around the world.
-            </MKTypography>
+            </MKTypography> */}
           </Grid>
         </Container>
       </MKBox>
@@ -160,11 +159,7 @@ function OurTeam() {
               <MKTypography variant="body1" fontWeight="light" color="black">
                 Introducing a cutting-edge robot meticulously crafted with advanced technologies, this innovative creation boasts an impressive array of features.
                 Equipped with speech recognition and voice commands, a user-friendly interface, and the capability for space mapping, our robot is designed for
-                seamless interaction. The integration of a Raspberry Pi 3 and a Kinect Sensor enables robust functionality utilizing Python with Pygame. The robot
-                excels in diverse tasks, from following lines and detecting visual elements to reading QR-Codes and converting text to speech. Powered by the A*
-                The PID controller ensures accuracy in movement, while face detection allows the robot to intelligently follow individuals. With the implementation
-                of remote control movement and the notable feature of complete independence from a central computer, this robot represents a groundbreaking fusion of
-                cutting-edge technologies for an exceptional user.
+                seamless interaction.
               </MKTypography>
             </Grid>
           </Grid>

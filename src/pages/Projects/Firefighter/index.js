@@ -39,9 +39,9 @@ import 'react-photo-view/dist/react-photo-view.css';
 import routes from "routes";
 
 // Images
-import bgImage from "assets/images/city-profile.jpg";
+import bgImage from "assets/images/projects/firefighter/fire1.png";
 import post1 from "assets/images/examples/testimonial-6-2.jpg";
-import post2 from "assets/images/examples/testimonial-6-3.jpg";
+import post2 from "assets/images/projects/firefighter/fire1.png"
 import post3 from "assets/images/examples/blog-9-4.jpg";
 import post4 from "assets/images/examples/blog2.jpg";
 import logo1 from "assets/images/logos/hot_transp.png"

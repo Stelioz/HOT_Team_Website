@@ -25,10 +25,18 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import team1 from "assets/images/team-5.jpg";
-import team2 from "assets/images/bruce-mars.jpg";
-import team3 from "assets/images/ivana-squares.jpg";
-import team4 from "assets/images/ivana-square.jpg";
+import team1 from "assets/images/team/iv.jpg";
+import team2 from "assets/images/team/cc.jpg";
+import team3 from "assets/images/team/ep2.jpg";
+import team4 from "assets/images/team/gk.png";
+import team5 from "assets/images/team/sr.jpg";
+import team6 from "assets/images/team/ta.jpeg";
+import team7 from "assets/images/team/jk.jpg";
+import team8 from "assets/images/team/it.jpg";
+import team9 from "assets/images/team/vk.jpg";
+import team10 from "assets/images/team/dc.png";
+import team11 from "assets/images/team/ml.jpg";
+import team12 from "assets/images/team/sz.jpg";
 
 function Team() {
   return (
@@ -42,12 +50,42 @@ function Team() {
     >
       <Container>
         <Grid container spacing={3}>
-          <Grid item xs={12} lg={6}>
+        <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
-              <HorizontalTeamCard
+            <HorizontalTeamCard
                 image={team1}
-                name="Emma Roberts"
-                position={{ color: "#004978", label: "UI Designer" }}
+                name="Iraklis Varlamis"
+                position={{ color: "#004978", label: "Professor" }}
+                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={1}>
+            <HorizontalTeamCard
+                image={team2}
+                name="Christos Chronis"
+                position={{ color: "#004978", label: "PhD Candidate" }}
+                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={1}>
+            <HorizontalTeamCard
+                image={team3}
+                name="Eleftheria Papageorgiou"
+                position={{ color: "#004978", label: "MPill Candidate" }}
+                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={1}>
+            <HorizontalTeamCard
+                image={team4}
+                name="Giorgos Kazazis"
+                position={{ color: "#004978", label: "MPill Candidate" }}
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
             </MKBox>
@@ -55,9 +93,29 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team2}
-                name="William Pearce"
-                position={{ color: "#004978", label: "Boss" }}
+                image={team5}
+                name="Spyridon Rallis"
+                position={{ color: "#004978", label: "Graduate Student" }}
+                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={1}>
+              <HorizontalTeamCard
+                image={team6}
+                name="Thanos Apostolidis"
+                position={{ color: "#004978", label: "Graduate Student" }}
+                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={1}>
+              <HorizontalTeamCard
+                image={team7}
+                name="Jason Karafotias"
+                position={{ color: "#004978", label: "Undergraduate Student" }}
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
             </MKBox>
@@ -65,19 +123,49 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team3}
-                name="Ivana Flow"
-                position={{ color: "#004978", label: "Athlete" }}
+                image={team8}
+                name="Ilias Tolos"
+                position={{ color: "#004978", label: "Undergraduate Student" }}
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
-              <HorizontalTeamCard
-                image={team4}
-                name="Marquez Garcia"
-                position={{ color: "#004978", label: "JS Developer" }}
+            <HorizontalTeamCard
+                image={team9}
+                name="Vaggelis Kostakis"
+                position={{ color: "#004978", label: "Undergraduate Student" }}
+                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={{ xs: 1, lg: 0 }}>
+            <HorizontalTeamCard
+                image={team10}
+                name="Dimitris Charitos"
+                position={{ color: "#004978", label: "Undergraduate Student" }}
+                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={{ xs: 1, lg: 0 }}>
+            <HorizontalTeamCard
+                image={team11}
+                name="Manousos Linardakis"
+                position={{ color: "#004978", label: "Undergraduate Student" }}
+                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={{ xs: 1, lg: 0 }}>
+            <HorizontalTeamCard
+                image={team12}
+                name="Stylianos Zindros"
+                position={{ color: "#004978", label: "MSc Candidate" }}
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
             </MKBox>
