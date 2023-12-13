@@ -148,16 +148,31 @@ function Home() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
+        
+        <Container>
+          <Grid container spacing={3} mt={2}>
+            <Grid item ml={2} xs={12} sm={12} lg={12}>
+              <MKTypography variant="body1" fontWeight="light" color="black">
+                Introducing a cutting-edge robot meticulously crafted with advanced technologies, this innovative creation boasts an impressive array of features.
+                Equipped with speech recognition and voice commands, a user-friendly interface, and the capability for space mapping, our robot is designed for
+                seamless interaction.
+              </MKTypography>
+            </Grid>
+          </Grid>
+        </Container>
         <Counters />
         {/* <Information /> */}
         {/* <DesignBlocks /> */}
         {/* <Pages /> */}
-        <InfoCard />
+        {/* <InfoCard /> */}
         {/* <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
         </Container> */}
+        <Container sx={{ mt: 1, mb: 1 }}>
+          <MainArticle />
+        </Container>
         <Container>
-          <Grid container spacing={3}>
+          <Grid container spacing={3} mt={1} mb={3}>
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
                 // variant="gradient"
@@ -225,9 +240,6 @@ function Home() {
               />
             </Grid>
           </Grid>
-        </Container>
-        <Container sx={{ mt: 6 }}>
-          <MainArticle />
         </Container>
         {/* <Testimonials /> */}
         {/* <Download /> */}
