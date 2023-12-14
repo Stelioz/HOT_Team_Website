@@ -37,7 +37,7 @@ import { icon } from '@fortawesome/fontawesome-svg-core/import.macro';
 import routes from "routes";
 
 // Images
-import bgImage from "assets/images/city-profile.jpg";
+import bgImage from "assets/images/projects/bosch/1701436364199.jpg";
 import underConst from "assets/images/illustrations/under-const-illu.png";
 import post1 from "assets/images/examples/testimonial-6-2.jpg";
 import post2 from "assets/images/examples/testimonial-6-3.jpg";
