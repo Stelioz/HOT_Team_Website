@@ -23,6 +23,8 @@ import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 // Images
 import team1 from "assets/images/team/iv.jpg";
@@ -50,43 +52,132 @@ function Team() {
     >
       <Container>
         <Grid container spacing={3}>
-        <Grid item xs={12} lg={6}>
+          <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
-            <HorizontalTeamCard
+              <HorizontalTeamCard
                 image={team1}
                 name="Iraklis Varlamis"
                 position={{ color: "#004978", label: "Professor" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                description={{
+                  color: "#004978",
+                  content: (
+                    <>
+                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
+                      <a
+                        href="https://www.linkedin.com/in/iraklis-varlamis-64a5251/"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        LinkedIn
+                      </a>
+                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        GitHub
+                      </a>
+                    </>
+                  ),
+                }}
               />
+
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
-            <HorizontalTeamCard
+              <HorizontalTeamCard
                 image={team2}
                 name="Christos Chronis"
                 position={{ color: "#004978", label: "PhD Candidate" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                description={{
+                  color: "#004978",
+                  content: (
+                    <>
+                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
+                      <a
+                        href="https://www.linkedin.com/in/chr-chronis/"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        LinkedIn
+                      </a>
+                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                      <a
+                        href="https://github.com/chronis10"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        GitHub
+                      </a>
+                    </>
+                  ),
+                }}
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
-            <HorizontalTeamCard
+              <HorizontalTeamCard
                 image={team3}
                 name="Eleftheria Papageorgiou"
                 position={{ color: "#004978", label: "MPill Candidate" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                description={{
+                  color: "#004978",
+                  content: (
+                    <>
+                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        LinkedIn
+                      </a>
+                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                      <a
+                        href="https://github.com/Eleftheria-99"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        GitHub
+                      </a>
+                    </>
+                  ),
+                }}
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
-            <HorizontalTeamCard
+              <HorizontalTeamCard
                 image={team4}
                 name="Giorgos Kazazis"
                 position={{ color: "#004978", label: "MPill Candidate" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                description={{
+                  color: "#004978",
+                  content: (
+                    <>
+                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        LinkedIn
+                      </a>
+                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                      <a
+                        href="https://github.com/Maagnitude"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        GitHub
+                      </a>
+                    </>
+                  ),
+                }}
               />
             </MKBox>
           </Grid>
@@ -96,7 +187,29 @@ function Team() {
                 image={team5}
                 name="Spyridon Rallis"
                 position={{ color: "#004978", label: "Graduate Student" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                description={{
+                  color: "#004978",
+                  content: (
+                    <>
+                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
+                      <a
+                        href="https://www.linkedin.com/in/spyridon-rallis-11520618a/"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        LinkedIn
+                      </a>
+                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        GitHub
+                      </a>
+                    </>
+                  ),
+                }}
               />
             </MKBox>
           </Grid>
@@ -106,7 +219,29 @@ function Team() {
                 image={team6}
                 name="Thanos Apostolidis"
                 position={{ color: "#004978", label: "Graduate Student" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                description={{
+                  color: "#004978",
+                  content: (
+                    <>
+                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        LinkedIn
+                      </a>
+                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        GitHub
+                      </a>
+                    </>
+                  ),
+                }}
               />
             </MKBox>
           </Grid>
@@ -116,7 +251,29 @@ function Team() {
                 image={team7}
                 name="Jason Karafotias"
                 position={{ color: "#004978", label: "Undergraduate Student" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                description={{
+                  color: "#004978",
+                  content: (
+                    <>
+                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        LinkedIn
+                      </a>
+                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        GitHub
+                      </a>
+                    </>
+                  ),
+                }}
               />
             </MKBox>
           </Grid>
@@ -126,47 +283,157 @@ function Team() {
                 image={team8}
                 name="Ilias Tolos"
                 position={{ color: "#004978", label: "Undergraduate Student" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                description={{
+                  color: "#004978",
+                  content: (
+                    <>
+                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        LinkedIn
+                      </a>
+                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        GitHub
+                      </a>
+                    </>
+                  ),
+                }}
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
-            <HorizontalTeamCard
+              <HorizontalTeamCard
                 image={team9}
                 name="Vaggelis Kostakis"
                 position={{ color: "#004978", label: "Undergraduate Student" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                description={{
+                  color: "#004978",
+                  content: (
+                    <>
+                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        LinkedIn
+                      </a>
+                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        GitHub
+                      </a>
+                    </>
+                  ),
+                }}
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
-            <HorizontalTeamCard
+              <HorizontalTeamCard
                 image={team10}
                 name="Dimitris Charitos"
                 position={{ color: "#004978", label: "Undergraduate Student" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                description={{
+                  color: "#004978",
+                  content: (
+                    <>
+                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        LinkedIn
+                      </a>
+                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                      <a
+                        href="https://github.com/Niroth36"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        GitHub
+                      </a>
+                    </>
+                  ),
+                }}
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
-            <HorizontalTeamCard
+              <HorizontalTeamCard
                 image={team11}
                 name="Manousos Linardakis"
                 position={{ color: "#004978", label: "Undergraduate Student" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                description={{
+                  color: "#004978",
+                  content: (
+                    <>
+                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        LinkedIn
+                      </a>
+                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        GitHub
+                      </a>
+                    </>
+                  ),
+                }}
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
-            <HorizontalTeamCard
+              <HorizontalTeamCard
                 image={team12}
                 name="Stylianos Zindros"
                 position={{ color: "#004978", label: "MSc Candidate" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                description={{
+                  color: "#004978",
+                  content: (
+                    <>
+                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
+                      <a
+                        href="https://www.linkedin.com/in/stelios-zindros-5a0401298/"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        LinkedIn
+                      </a>
+                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                      <a
+                        href="https://github.com/Stelioz"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        GitHub
+                      </a>
+                    </>
+                  ),
+                }}
               />
             </MKBox>
           </Grid>

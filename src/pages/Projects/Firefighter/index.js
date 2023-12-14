@@ -40,8 +40,8 @@ import routes from "routes";
 
 // Images
 import bgImage from "assets/images/projects/firefighter/fire1.png";
-import post1 from "assets/images/examples/testimonial-6-2.jpg";
-import post2 from "assets/images/projects/firefighter/fire1.png"
+import post1 from "assets/images/projects/firefighter/fire1.png";
+import post2 from "assets/images/projects/firefighter/fire1.png";
 import post3 from "assets/images/examples/blog-9-4.jpg";
 import post4 from "assets/images/examples/blog2.jpg";
 import logo1 from "assets/images/logos/hot_transp.png"
@@ -115,24 +115,11 @@ function Firefighter() {
                 </Container>
                 <PhotoProvider>
                 <Grid container spacing={0}>
-                  <Grid item xs={12} sm={6} lg={3}>
+                <Grid item xs={12} sm={6} lg={6}>
                     <PhotoView src={post1}>
                       <CardMedia image={post1} sx={{ height: "416px" }} />
                     </PhotoView>
-                  </Grid>
-                  <Grid item xs={12} sm={6} lg={3}>
-                    <PhotoView src={post2}>
-                      <CardMedia image={post2} sx={{ height: "200px" }} />
-                    </PhotoView>
-                    <PhotoView src={post3}>
-                      <CardMedia image={post3} sx={{ height: "200px" }} />
-                    </PhotoView>
-                  </Grid>
-                  <Grid item xs={12} sm={6} lg={6}>
-                    <PhotoView src={post1}>
-                      <CardMedia image={post1} sx={{ height: "200px" }} />
-                    </PhotoView>
-                    <Grid container spacing={0}>
+                    {/* <Grid container spacing={0}>
                       <Grid item xs={12} sm={6} lg={6}>
                         <PhotoView src={post4}>
                           <CardMedia image={post4} sx={{ height: "200px" }} />
@@ -143,7 +130,24 @@ function Firefighter() {
                           <CardMedia image={post2} sx={{ height: "200px" }} />
                         </PhotoView>
                       </Grid>
-                    </Grid>
+                    </Grid> */}
+                  </Grid>
+                  <Grid item xs={12} sm={6} lg={6}>
+                    <PhotoView src={post1}>
+                      <CardMedia image={post1} sx={{ height: "416px" }} />
+                    </PhotoView>
+                    {/* <Grid container spacing={0}>
+                      <Grid item xs={12} sm={6} lg={6}>
+                        <PhotoView src={post4}>
+                          <CardMedia image={post4} sx={{ height: "200px" }} />
+                        </PhotoView>
+                      </Grid>
+                      <Grid item xs={12} sm={6} lg={6}>
+                        <PhotoView src={post2}>
+                          <CardMedia image={post2} sx={{ height: "200px" }} />
+                        </PhotoView>
+                      </Grid>
+                    </Grid> */}
                   </Grid>
                 </Grid>
               </PhotoProvider>

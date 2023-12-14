@@ -131,9 +131,9 @@ function Noa() {
                   </Grid>
                   <Grid item xs={12} sm={6} lg={6}>
                     <PhotoView src={post1}>
-                      <CardMedia image={post1} sx={{ height: "200px" }} />
+                      <CardMedia image={post1} sx={{ height: "416px" }} />
                     </PhotoView>
-                    <Grid container spacing={0}>
+                    {/* <Grid container spacing={0}>
                       <Grid item xs={12} sm={6} lg={6}>
                         <PhotoView src={post4}>
                           <CardMedia image={post4} sx={{ height: "200px" }} />
@@ -144,7 +144,7 @@ function Noa() {
                           <CardMedia image={post2} sx={{ height: "200px" }} />
                         </PhotoView>
                       </Grid>
-                    </Grid>
+                    </Grid> */}
                   </Grid>
                 </Grid>
               </PhotoProvider>

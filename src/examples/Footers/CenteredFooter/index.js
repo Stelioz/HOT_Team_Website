@@ -117,7 +117,7 @@ CenteredFooter.defaultProps = {
   socials: [
     { icon: <FacebookIcon fontSize="small" />, link: "https://web.facebook.com/ditharokopio/" },
     { icon: <TwitterIcon fontSize="small" />, link: "https://twitter.com/dit_hua", },
-    { icon: <InstagramIcon fontSize="small" />, link: "https://www.instagram.com/creativetimofficial/", },
+    { icon: <GitHubIcon fontSize="small" />, link: " ", },
   ],
   light: false,
 };

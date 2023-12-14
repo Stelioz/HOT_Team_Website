@@ -55,7 +55,7 @@ import logo from "assets/images/logos/hot_white.png";
 import post1 from "assets/images/ΗΟΤ/hotTeam.png";
 import post2 from "assets/images/ΗΟΤ/fossas1.jpg";
 import post3 from "assets/images/ΗΟΤ/fossas2.jpg";
-import post4 from "assets/images/examples/blog2.jpg";
+import post4 from "assets/images/ΗΟΤ/teamphoto1.jpg";
 
 // Import necessary Font Awesome components
 // import { library } from "@fortawesome/fontawesome-svg-core";
@@ -154,12 +154,14 @@ function OurTeam() {
           <MKTypography variant="h3" color="black" ml={2} mb={3}>
             Our Team
           </MKTypography>
-          <Grid container spacing={3} mb={3}>
+          <Grid container spacing={3} mb={5}>
             <Grid item ml={2} xs={12} sm={12} lg={12}>
               <MKTypography variant="body1" fontWeight="light" color="black">
-                Introducing a cutting-edge robot meticulously crafted with advanced technologies, this innovative creation boasts an impressive array of features.
-                Equipped with speech recognition and voice commands, a user-friendly interface, and the capability for space mapping, our robot is designed for
-                seamless interaction.
+                Our dynamic team, comprised of talented students from Harokopio University, is passionately dedicated to the development of open-access software and
+                beyond. Together, we strive to create innovative solutions that transcend boundaries and empower users with accessible, high-quality tools. Fueled
+                by a shared commitment to learning, collaboration, and creativity, our team embraces the challenges of software development, fostering an environment
+                where each member's unique skills contribute to the realization of our collective vision. Through open access principles, we aim to make a lasting
+                impact by democratizing technology and paving the way for a more inclusive digital future.
               </MKTypography>
             </Grid>
           </Grid>
@@ -169,7 +171,7 @@ function OurTeam() {
 
         <Container>
           <PhotoProvider>
-          <Grid container spacing={3} mt={1} mb={4}>          
+          <Grid container spacing={1} mt={1} mb={2}>          
             <Grid item xs={12} sm={6} lg={3}>
             <PhotoView src={post1}>
               <CardMedia image={post1} sx={{ height: "200px" }} />
