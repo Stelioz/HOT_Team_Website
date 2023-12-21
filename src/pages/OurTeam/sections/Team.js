@@ -25,6 +25,7 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import MailIcon from "@mui/icons-material/Mail";
 
 // Images
 import team1 from "assets/images/team/iv.jpg";
@@ -62,22 +63,35 @@ function Team() {
                   color: "#004978",
                   content: (
                     <>
-                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
-                      <a
-                        href="https://www.linkedin.com/in/iraklis-varlamis-64a5251/"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        LinkedIn
-                      </a>
-                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
-                      <a
-                        href="https://github.com/username"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
+                      <p>
+                      <span style={{ display: "flex", alignItems: "center" }}>
+                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                        <a
+                          href="https://www.linkedin.com/in/iraklis-varlamis-64a5251/"
+                          target="_blank"
+                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                        >
+                            LinkedIn
+                        </a>
+                        <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />
+                        <a
+                          href="https://github.com/username"
+                          target="_blank"
+                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                        >
                         GitHub
-                      </a>
+                        </a>
+                        </span>
+                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
+                        <a
+                          href="mailto:varlamis@hua.gr"
+                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                        >
+                        varlamis@hua.gr
+                        </a>
+                        </span>
+                      </p>
                     </>
                   ),
                 }}
@@ -95,8 +109,10 @@ function Team() {
                   color: "#004978",
                   content: (
                     <>
-                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
-                      <a
+                      <p>
+                      <span style={{ display: "flex", alignItems: "center" }}>
+                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                        <a
                         href="https://www.linkedin.com/in/chr-chronis/"
                         target="_blank"
                         style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
@@ -110,39 +126,18 @@ function Team() {
                         style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
                       >
                         GitHub
-                      </a>
-                    </>
-                  ),
-                }}
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={1}>
-              <HorizontalTeamCard
-                image={team3}
-                name="Eleftheria Papageorgiou"
-                position={{ color: "#004978", label: "MPill Candidate" }}
-                description={{
-                  color: "#004978",
-                  content: (
-                    <>
-                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
-                      <a
-                        href="https://github.com/username"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        LinkedIn
-                      </a>
-                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
-                      <a
-                        href="https://github.com/Eleftheria-99"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        GitHub
-                      </a>
+                        </a>
+                        </span>
+                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
+                        <a
+                          href="mailto:chronis@hua.gr"
+                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                        >
+                        chronis@hua.gr
+                        </a>
+                        </span>
+                      </p>
                     </>
                   ),
                 }}
@@ -154,13 +149,15 @@ function Team() {
               <HorizontalTeamCard
                 image={team4}
                 name="Giorgos Kazazis"
-                position={{ color: "#004978", label: "MPill Candidate" }}
+                position={{ color: "#004978", label: "MPill Student" }}
                 description={{
                   color: "#004978",
                   content: (
                     <>
-                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
-                      <a
+                      <p>
+                      <span style={{ display: "flex", alignItems: "center" }}>
+                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                        <a
                         href="https://github.com/username"
                         target="_blank"
                         style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
@@ -174,7 +171,18 @@ function Team() {
                         style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
                       >
                         GitHub
-                      </a>
+                        </a>
+                        </span>
+                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
+                        <a
+                          href="mailto:csi23307@hua.gr"
+                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                        >
+                        csi23307@hua.gr
+                        </a>
+                        </span>
+                      </p>
                     </>
                   ),
                 }}
@@ -184,16 +192,18 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team5}
-                name="Spyridon Rallis"
-                position={{ color: "#004978", label: "Graduate Student" }}
+                image={team3}
+                name="Eleftheria Papageorgiou"
+                position={{ color: "#004978", label: "MPill Student" }}
                 description={{
                   color: "#004978",
                   content: (
                     <>
-                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
-                      <a
-                        href="https://www.linkedin.com/in/spyridon-rallis-11520618a/"
+                      <p>
+                      <span style={{ display: "flex", alignItems: "center" }}>
+                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                        <a
+                        href="https://github.com/username"
                         target="_blank"
                         style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
                       >
@@ -201,12 +211,23 @@ function Team() {
                       </a>
                       <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
                       <a
-                        href="https://github.com/username"
+                        href="https://github.com/Eleftheria-99"
                         target="_blank"
                         style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
                       >
                         GitHub
-                      </a>
+                        </a>
+                        </span>
+                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
+                        <a
+                          href="mailto:csi23310@hua.gr"
+                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                        >
+                        csi23310@hua.gr
+                        </a>
+                        </span>
+                      </p>
                     </>
                   ),
                 }}
@@ -223,8 +244,10 @@ function Team() {
                   color: "#004978",
                   content: (
                     <>
-                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
-                      <a
+                      <p>
+                      <span style={{ display: "flex", alignItems: "center" }}>
+                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                        <a
                         href="https://github.com/username"
                         target="_blank"
                         style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
@@ -238,7 +261,18 @@ function Team() {
                         style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
                       >
                         GitHub
-                      </a>
+                        </a>
+                        </span>
+                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
+                        <a
+                          href="mailto:tba@hua.gr"
+                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                        >
+                        tba@hua.gr
+                        </a>
+                        </span>
+                      </p>
                     </>
                   ),
                 }}
@@ -248,16 +282,18 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team7}
-                name="Jason Karafotias"
-                position={{ color: "#004978", label: "Undergraduate Student" }}
+                image={team5}
+                name="Spyridon Rallis"
+                position={{ color: "#004978", label: "Graduate Student" }}
                 description={{
                   color: "#004978",
                   content: (
                     <>
-                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
-                      <a
-                        href="https://github.com/username"
+                      <p>
+                      <span style={{ display: "flex", alignItems: "center" }}>
+                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                        <a
+                        href="https://www.linkedin.com/in/spyridon-rallis-11520618a/"
                         target="_blank"
                         style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
                       >
@@ -270,71 +306,18 @@ function Team() {
                         style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
                       >
                         GitHub
-                      </a>
-                    </>
-                  ),
-                }}
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={{ xs: 1, lg: 0 }}>
-              <HorizontalTeamCard
-                image={team8}
-                name="Ilias Tolos"
-                position={{ color: "#004978", label: "Undergraduate Student" }}
-                description={{
-                  color: "#004978",
-                  content: (
-                    <>
-                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
-                      <a
-                        href="https://github.com/username"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        LinkedIn
-                      </a>
-                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
-                      <a
-                        href="https://github.com/username"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        GitHub
-                      </a>
-                    </>
-                  ),
-                }}
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={{ xs: 1, lg: 0 }}>
-              <HorizontalTeamCard
-                image={team9}
-                name="Vaggelis Kostakis"
-                position={{ color: "#004978", label: "Undergraduate Student" }}
-                description={{
-                  color: "#004978",
-                  content: (
-                    <>
-                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
-                      <a
-                        href="https://github.com/username"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        LinkedIn
-                      </a>
-                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
-                      <a
-                        href="https://github.com/username"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        GitHub
-                      </a>
+                        </a>
+                        </span>
+                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
+                        <a
+                          href="mailto:tba@hua.gr"
+                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                        >
+                        tba@hua.gr
+                        </a>
+                        </span>
+                      </p>
                     </>
                   ),
                 }}
@@ -351,8 +334,10 @@ function Team() {
                   color: "#004978",
                   content: (
                     <>
-                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
-                      <a
+                      <p>
+                      <span style={{ display: "flex", alignItems: "center" }}>
+                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                        <a
                         href="https://github.com/username"
                         target="_blank"
                         style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
@@ -366,7 +351,108 @@ function Team() {
                         style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
                       >
                         GitHub
+                        </a>
+                        </span>
+                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
+                        <a
+                          href="mailto:it21395@hua.gr"
+                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                        >
+                        it21395@hua.gr
+                        </a>
+                        </span>
+                      </p>
+                    </>
+                  ),
+                }}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={1}>
+              <HorizontalTeamCard
+                image={team7}
+                name="Jason Karafotias"
+                position={{ color: "#004978", label: "Undergraduate Student" }}
+                description={{
+                  color: "#004978",
+                  content: (
+                    <>
+                      <p>
+                      <span style={{ display: "flex", alignItems: "center" }}>
+                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                        <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        LinkedIn
                       </a>
+                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        GitHub
+                        </a>
+                        </span>
+                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
+                        <a
+                          href="mailto:tba@hua.gr"
+                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                        >
+                        tba@hua.gr
+                        </a>
+                        </span>
+                      </p>
+                    </>
+                  ),
+                }}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={{ xs: 1, lg: 0 }}>
+              <HorizontalTeamCard
+                image={team9}
+                name="Vaggelis Kostakis"
+                position={{ color: "#004978", label: "Undergraduate Student" }}
+                description={{
+                  color: "#004978",
+                  content: (
+                    <>
+                      <p>
+                      <span style={{ display: "flex", alignItems: "center" }}>
+                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                        <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        LinkedIn
+                      </a>
+                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        GitHub
+                        </a>
+                        </span>
+                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
+                        <a
+                          href="mailto:tba@hua.gr"
+                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                        >
+                        tba@hua.gr
+                        </a>
+                        </span>
+                      </p>
                     </>
                   ),
                 }}
@@ -383,8 +469,10 @@ function Team() {
                   color: "#004978",
                   content: (
                     <>
-                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
-                      <a
+                      <p>
+                      <span style={{ display: "flex", alignItems: "center" }}>
+                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                        <a
                         href="https://github.com/username"
                         target="_blank"
                         style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
@@ -398,7 +486,63 @@ function Team() {
                         style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
                       >
                         GitHub
+                        </a>
+                        </span>
+                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
+                        <a
+                          href="mailto:tba@hua.gr"
+                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                        >
+                        tba@hua.gr
+                        </a>
+                        </span>
+                      </p>
+                    </>
+                  ),
+                }}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={{ xs: 1, lg: 0 }}>
+              <HorizontalTeamCard
+                image={team8}
+                name="Ilias Tolos"
+                position={{ color: "#004978", label: "Undergraduate Student" }}
+                description={{
+                  color: "#004978",
+                  content: (
+                    <>
+                      <p>
+                      <span style={{ display: "flex", alignItems: "center" }}>
+                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                        <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        LinkedIn
                       </a>
+                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                      <a
+                        href="https://github.com/username"
+                        target="_blank"
+                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                      >
+                        GitHub
+                        </a>
+                        </span>
+                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
+                        <a
+                          href="mailto:tba@hua.gr"
+                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                        >
+                        tba@hua.gr
+                        </a>
+                        </span>
+                      </p>
                     </>
                   ),
                 }}
@@ -410,13 +554,15 @@ function Team() {
               <HorizontalTeamCard
                 image={team12}
                 name="Stylianos Zindros"
-                position={{ color: "#004978", label: "MSc Candidate" }}
+                position={{ color: "#004978", label: "MSc Student" }}
                 description={{
                   color: "#004978",
                   content: (
                     <>
-                      <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />{" "}
-                      <a
+                      <p>
+                      <span style={{ display: "flex", alignItems: "center" }}>
+                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                        <a
                         href="https://www.linkedin.com/in/stelios-zindros-5a0401298/"
                         target="_blank"
                         style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
@@ -430,7 +576,18 @@ function Team() {
                         style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
                       >
                         GitHub
-                      </a>
+                        </a>
+                        </span>
+                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
+                        <a
+                          href="mailto:itp23106@hua.gr"
+                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                        >
+                        itp23106@hua.gr
+                        </a>
+                        </span>
+                      </p>
                     </>
                   ),
                 }}

@@ -37,18 +37,18 @@ function CenteredFooter({ company, links, socials, light }) {
 
   const year = new Date().getFullYear();
 
-  const renderLinks = links.map((link) => (
-    <MKTypography
-      key={link.name}
-      component={Link}
-      href={link.href}
-      variant="body2"
-      color={light ? "white" : "secondary"}
-      fontWeight="regular"
-    >
-      {/* {link.name} */}
-    </MKTypography>
-  ));
+  // const renderLinks = links.map((link) => (
+  //   <MKTypography
+  //     key={link.name}
+  //     component={Link}
+  //     href={link.href}
+  //     variant="body2"
+  //     color={light ? "white" : "secondary"}
+  //     fontWeight="regular"
+  //   >
+  //     {link.name}
+  //   </MKTypography>
+  // ));
 
   const renderSocials = socials.map((social) => (
     <MKTypography
@@ -66,17 +66,17 @@ function CenteredFooter({ company, links, socials, light }) {
   return (
     <MKBox component="footer" py={4}>
       <Grid container justifyContent="center">
-        <Grid item xs={10} lg={8}>
+        {/* <Grid item xs={10} lg={8}>
           <Stack
             direction="row"
             flexWrap="wrap"
             justifyContent="center"
+            style={{ color: "#004978" }}
             spacing={{ xs: 2, lg: 3, xl: 6 }}
-            mb={3}
           >
-            {renderLinks}
+            HAROKOPIO OPEN TECHNOLOGIES
           </Stack>
-        </Grid>
+        </Grid> */}
         <Grid item xs={12} lg={8}>
           <Stack display="flex" direction="row" justifyContent="center" spacing={3} mt={1} mb={3}>
             {renderSocials}
@@ -116,8 +116,8 @@ CenteredFooter.defaultProps = {
   ],
   socials: [
     { icon: <FacebookIcon fontSize="small" />, link: "https://web.facebook.com/ditharokopio/" },
-    { icon: <TwitterIcon fontSize="small" />, link: "https://twitter.com/dit_hua", },
-    { icon: <GitHubIcon fontSize="small" />, link: " ", },
+    { icon: <TwitterIcon fontSize="small" />, link: "https://twitter.com/dit_hua" },
+    { icon: <GitHubIcon fontSize="small" />, link: "https://github.com/" },
   ],
   light: false,
 };

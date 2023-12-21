@@ -21,7 +21,7 @@ import Icon from "@mui/material/Icon";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import bgImage from "assets/images/logos/generic.png";
+import bgImage from "assets/images/projects/bosch/1701436364199.jpg";
 
 function MainArticle() {
   // const bgImage =

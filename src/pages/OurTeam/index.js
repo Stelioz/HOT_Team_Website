@@ -52,10 +52,10 @@ import footerRoutes from "footer.routes";
 // Images
 import bgImage from "assets/images/logos/huaBanner.jpg";
 import logo from "assets/images/logos/hot_white.png";
-import post1 from "assets/images/ΗΟΤ/hotTeam.png";
+import post1 from "assets/images/ΗΟΤ/teamphoto1.jpg";
 import post2 from "assets/images/ΗΟΤ/fossas1.jpg";
 import post3 from "assets/images/ΗΟΤ/fossas2.jpg";
-import post4 from "assets/images/ΗΟΤ/teamphoto1.jpg";
+import post4 from "assets/images/ΗΟΤ/teamphoto22.jpg";
 
 // Import necessary Font Awesome components
 // import { library } from "@fortawesome/fontawesome-svg-core";

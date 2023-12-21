@@ -50,6 +50,7 @@ function Counters() {
           <Grid item xs={12} md={4}>
             <DefaultCounterCard
               count={10}
+              suffix="+"
               title="Team Members"
               description="Our Team Integrates Software Expertise with Cutting-Edge Hardware Solutions"
             />

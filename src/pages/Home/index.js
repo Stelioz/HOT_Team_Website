@@ -153,9 +153,10 @@ function Home() {
           <Grid container spacing={3} mt={2}>
             <Grid item ml={2} xs={12} sm={12} lg={12}>
               <MKTypography variant="body1" fontWeight="light" color="black">
-                Introducing a cutting-edge robot meticulously crafted with advanced technologies, this innovative creation boasts an impressive array of features.
-                Equipped with speech recognition and voice commands, a user-friendly interface, and the capability for space mapping, our robot is designed for
-                seamless interaction.
+                Harokopio Open Technologies is a dynamic team of innovation and collaboration, with members from the vibrant community of Harokopio University of
+                Athens. Consisting of forward-thinking individuals passionate about technology, our team is committed to the development and promotion of open-source technologies. By fostering an environment that thrives on knowledge-sharing and creativity, HOT aims to harness the collective intelligence 
+                of its members to create cutting-edge solutions. With a focus on openness, inclusivity and the democratization of technology, we strive to assist
+                the technological landscape, making a meaningful contribution to the global community of open-source enthusiasts.
               </MKTypography>
             </Grid>
           </Grid>
@@ -191,7 +192,7 @@ function Home() {
               <FilledInfoCard
                 color="info"
                 icon="fire_extinguisher"
-                title="Firefighter"
+                title="Firefighter Turret"
                 description="AI-Powered Robotic Turret: Advanced Fire Detection and Suppression System."
                 action={{
                   type: "internal",
