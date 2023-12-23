@@ -47,7 +47,21 @@ import post4 from "assets/images/projects/phineas/phin2.png";
 import logo1 from "assets/images/logos/hot_transp.png"
 import logo2 from "assets/images/logos/huaLogoSmall.png"
 
+import YouTube from 'react-youtube';
+
+
 function Phineas() {
+
+  const opts = {
+    height: '416px',
+    width: '100%',
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 1,
+    },
+  };
+
+
   return (
     <>
       <DefaultNavbar
@@ -106,13 +120,18 @@ function Phineas() {
               </MKTypography>
               <Container>
                 <MKTypography variant="body1" fontWeight="light" color="black" mb={2}>
-                  Introducing a cutting-edge robot meticulously crafted with advanced technologies, this innovative creation boasts an impressive array of features.
-                  Equipped with speech recognition and voice commands, a user-friendly interface, and the capability for space mapping, our robot is designed for
-                  seamless interaction. The integration of a Raspberry Pi 3 and a Kinect Sensor enables robust functionality utilizing Python with Pygame. The robot
-                  excels in diverse tasks, from following lines and detecting visual elements to reading QR-Codes and converting text to speech. Powered by the A*
-                  The PID controller ensures accuracy in movement, while face detection allows the robot to intelligently follow individuals. With the implementation
-                  of remote control movement and the notable feature of complete independence from a central computer, this robot represents a groundbreaking fusion of
-                  cutting-edge technologies for an exceptional user.
+                  Phineas is a fully 3D-printed robot, boasting cutting-edge technologies.
+                  It is equipped with speech recognition and voice commands, alongside a user-friendly
+                  touch-screen interface, enhancing its interactive capabilities. Additionally,
+                  it features space mapping technology for efficient navigation. The core of Phineas
+                  includes a Raspberry Pi 3 and a Kinect Sensor, enabling a range of robust
+                  functionalities powered by Python and Pygame. This robot is adept at various
+                  tasks such as line following, visual element detection (like ArUco markers),
+                  QR code reading, and text-to-speech conversion. Navigation is streamlined
+                  using the A* algorithm, and movement precision is maintained through a
+                  PID controller. Phineas also incorporates face detection, allowing it to
+                  intelligently track individuals. Finally, it can be operated with an Xbox 360
+                  controller and operates independently, without needing a central computer.
                 </MKTypography>
               </Container>
               <PhotoProvider>
@@ -131,9 +150,11 @@ function Phineas() {
                     </PhotoView>
                   </Grid>
                   <Grid item xs={12} sm={6} lg={6}>
-                    <PhotoView src={post1}>
-                      <CardMedia image={post4} sx={{ height: "416px" }} />
-                    </PhotoView>
+
+                    <iframe width="600" height="100%" src="https://www.youtube.com/embed/ShOAGPW5iQc?si=bLKS2PCcfZqvxurz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    {/* <PhotoView src={post4}>
+                        <CardMedia image={post4} sx={{ height: "416px" }} />
+                    </PhotoView> */}
                     {/* <Grid container spacing={0}>
                       <Grid item xs={12} sm={6} lg={6}>
                         <PhotoView src={post4}>
@@ -149,8 +170,8 @@ function Phineas() {
                   </Grid>
                 </Grid>
               </PhotoProvider>
-            </Container>
 
+            </Container>
             <Container>
               <Grid container spacing={1}>
                 <Grid item xs={12} sm={6}>

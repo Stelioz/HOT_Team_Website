@@ -84,18 +84,7 @@ function CenteredFooter({ company, links, socials, light }) {
         </Grid>
         <Grid item xs={12} lg={8} sx={{ textAlign: "center" }}>
           <MKTypography variant="body2" color={light ? "white" : "secondary"}>
-            Copyright &copy; {year} Material by{" "}
-            <MKTypography
-              component={Link}
-              href={href}
-              target="_blank"
-              rel="noreferrer"
-              variant="body2"
-              color={light ? "white" : "secondary"}
-            >
-              {name}
-            </MKTypography>
-            .
+            Copyright &copy; {year} by HOT team.
           </MKTypography>
         </Grid>
       </Grid>
