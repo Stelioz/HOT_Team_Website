@@ -276,17 +276,17 @@ const routes = [
     route: "/ourteam",
     component: <OurTeam />,
   },
-  {
-    name: "contact us",
-    icon: <Icon>mail</Icon>,
-    route: "/pages/landing-pages/contact-us",
-    component: <ContactUs />,
-  },
-  {
-    name: "github",
-    icon: <GitHubIcon />,
-    href: "",
-  },
+  // {
+  //   name: "contact us",
+  //   icon: <Icon>mail</Icon>,
+  //   route: "/pages/landing-pages/contact-us",
+  //   component: <ContactUs />,
+  // },
+  // {
+  //   name: "github",
+  //   icon: <GitHubIcon />,
+  //   href: "",
+  // },
 ];
 
 export default routes;
