@@ -82,7 +82,7 @@ function Team() {
                         GitHub
                         </a>
                         </span>
-                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
                         <a
                           href="mailto:varlamis@hua.gr"
@@ -90,7 +90,7 @@ function Team() {
                         >
                         varlamis@hua.gr
                         </a>
-                        </span>
+                        </span> */}
                       </p>
                     </>
                   ),
@@ -128,7 +128,7 @@ function Team() {
                         GitHub
                         </a>
                         </span>
-                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
                         <a
                           href="mailto:chronis@hua.gr"
@@ -136,7 +136,7 @@ function Team() {
                         >
                         chronis@hua.gr
                         </a>
-                        </span>
+                        </span> */}
                       </p>
                     </>
                   ),
@@ -173,7 +173,7 @@ function Team() {
                         GitHub
                         </a>
                         </span>
-                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
                         <a
                           href="mailto:csi23307@hua.gr"
@@ -181,7 +181,7 @@ function Team() {
                         >
                         csi23307@hua.gr
                         </a>
-                        </span>
+                        </span> */}
                       </p>
                     </>
                   ),
@@ -218,7 +218,7 @@ function Team() {
                         GitHub
                         </a>
                         </span>
-                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
                         <a
                           href="mailto:csi23310@hua.gr"
@@ -226,7 +226,7 @@ function Team() {
                         >
                         csi23310@hua.gr
                         </a>
-                        </span>
+                        </span> */}
                       </p>
                     </>
                   ),
@@ -263,7 +263,7 @@ function Team() {
                         GitHub
                         </a>
                         </span>
-                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
                         <a
                           href="mailto:tba@hua.gr"
@@ -271,7 +271,7 @@ function Team() {
                         >
                         tba@hua.gr
                         </a>
-                        </span>
+                        </span> */}
                       </p>
                     </>
                   ),
@@ -308,7 +308,7 @@ function Team() {
                         GitHub
                         </a>
                         </span>
-                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
                         <a
                           href="mailto:tba@hua.gr"
@@ -316,7 +316,7 @@ function Team() {
                         >
                         tba@hua.gr
                         </a>
-                        </span>
+                        </span> */}
                       </p>
                     </>
                   ),
@@ -353,7 +353,7 @@ function Team() {
                         GitHub
                         </a>
                         </span>
-                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
                         <a
                           href="mailto:it21395@hua.gr"
@@ -361,7 +361,7 @@ function Team() {
                         >
                         it21395@hua.gr
                         </a>
-                        </span>
+                        </span> */}
                       </p>
                     </>
                   ),
@@ -398,7 +398,7 @@ function Team() {
                         GitHub
                         </a>
                         </span>
-                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
                         <a
                           href="mailto:tba@hua.gr"
@@ -406,7 +406,7 @@ function Team() {
                         >
                         tba@hua.gr
                         </a>
-                        </span>
+                        </span> */}
                       </p>
                     </>
                   ),
@@ -443,7 +443,7 @@ function Team() {
                         GitHub
                         </a>
                         </span>
-                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
                         <a
                           href="mailto:tba@hua.gr"
@@ -451,7 +451,7 @@ function Team() {
                         >
                         tba@hua.gr
                         </a>
-                        </span>
+                        </span> */}
                       </p>
                     </>
                   ),
@@ -488,7 +488,7 @@ function Team() {
                         GitHub
                         </a>
                         </span>
-                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
                         <a
                           href="mailto:tba@hua.gr"
@@ -496,7 +496,7 @@ function Team() {
                         >
                         tba@hua.gr
                         </a>
-                        </span>
+                        </span> */}
                       </p>
                     </>
                   ),
@@ -533,7 +533,7 @@ function Team() {
                         GitHub
                         </a>
                         </span>
-                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
                         <a
                           href="mailto:tba@hua.gr"
@@ -541,7 +541,7 @@ function Team() {
                         >
                         tba@hua.gr
                         </a>
-                        </span>
+                        </span> */}
                       </p>
                     </>
                   ),
@@ -578,7 +578,7 @@ function Team() {
                         GitHub
                         </a>
                         </span>
-                        <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
+                        {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
                         <a
                           href="mailto:itp23106@hua.gr"
@@ -586,7 +586,7 @@ function Team() {
                         >
                         itp23106@hua.gr
                         </a>
-                        </span>
+                        </span> */}
                       </p>
                     </>
                   ),
