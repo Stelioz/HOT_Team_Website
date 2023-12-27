@@ -47,21 +47,7 @@ import post4 from "assets/images/projects/phineas/phin2.png";
 import logo1 from "assets/images/logos/hot_transp.png"
 import logo2 from "assets/images/logos/huaLogoSmall.png"
 
-import YouTube from 'react-youtube';
-
-
 function Phineas() {
-
-  const opts = {
-    height: '416px',
-    width: '100%',
-    playerVars: {
-      // https://developers.google.com/youtube/player_parameters
-      autoplay: 1,
-    },
-  };
-
-
   return (
     <>
       <DefaultNavbar

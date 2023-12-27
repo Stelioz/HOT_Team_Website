@@ -22,6 +22,7 @@ import Icon from "@mui/material/Icon";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import bgImage from "assets/images/projects/bosch/1701436364199.jpg";
+import { Link } from "react-router-dom";
 
 function MainArticle() {
   // const bgImage =
@@ -59,10 +60,10 @@ function MainArticle() {
             simulating a miniature smart city.
           </MKTypography>
           <MKTypography
-            component="a"
-            href="projects/bfmc"
+            component={Link} // Use Link component for navigation
+            to="/projects/bfmc" // Use "to" instead of "href" for React Router
             target="_self"
-            rel="noreferrer"
+            // rel="noreferrer"
             variant="body2"
             color="white"
             fontWeight="regular"
