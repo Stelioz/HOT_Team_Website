@@ -27,23 +27,25 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/CenteredFooter";
-import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
+// import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
-import Counters from "pages/OurTeam/sections/Counters";
-import InfoCard from "pages/OurTeam/sections/InfoCard";
+// import Counters from "pages/OurTeam/sections/Counters";
+// import InfoCard from "pages/OurTeam/sections/InfoCard";
 import Team from "pages/OurTeam/sections/Team";
-import Information from "pages/OurTeam/sections/Information";
-import DesignBlocks from "pages/OurTeam/sections/DesignBlocks";
-import Pages from "pages/OurTeam/sections/Pages";
-import Testimonials from "pages/OurTeam/sections/Testimonials";
-import Download from "pages/OurTeam/sections/Download";
+import TeamLeader from "pages/OurTeam/sections/TeamLeader";
+import TeamHead from "pages/OurTeam/sections/TeamHead";
+// import Information from "pages/OurTeam/sections/Information";
+// import DesignBlocks from "pages/OurTeam/sections/DesignBlocks";
+// import Pages from "pages/OurTeam/sections/Pages";
+// import Testimonials from "pages/OurTeam/sections/Testimonials";
+// import Download from "pages/OurTeam/sections/Download";
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
 
 // Presentation page components
 // import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
-import MainArticle from "pages/OurTeam/components/MainArticle";
+// import MainArticle from "pages/OurTeam/components/MainArticle";
 
 // Routes
 import routes from "routes";
@@ -151,10 +153,10 @@ function OurTeam() {
         }}
       >
         <Container>
-          <MKTypography variant="h3" color="black" ml={2} mb={3}>
+          {/* <MKTypography variant="h3" color="black" ml={2} mb={3}>
             Our Team
-          </MKTypography>
-          <Grid container spacing={3} mb={5}>
+          </MKTypography> */}
+          <Grid container spacing={3} mt={2} mb={7}>
             <Grid item ml={2} xs={12} sm={12} lg={12}>
               <MKTypography variant="body1" fontWeight="light" color="black">
                 Our dynamic team, comprised of talented students from Harokopio University, is passionately dedicated to the development of open-access software and
@@ -167,6 +169,8 @@ function OurTeam() {
           </Grid>
         </Container>
 
+        <TeamHead />
+        <TeamLeader />
         <Team />
 
         <Container>

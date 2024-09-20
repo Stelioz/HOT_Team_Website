@@ -43,7 +43,7 @@ import bgImage from "assets/images/projects/noa/noa1.jpg";
 import post1 from "assets/images/projects/noa/noa1.jpg";
 import post2 from "assets/images/projects/noa/noa3.png";
 import post3 from "assets/images/projects/noa/noa2.png";
-import post4 from "assets/images/examples/blog2.jpg";
+// import post4 from "assets/images/examples/blog2.jpg";
 import logo1 from "assets/images/logos/hot_transp.png"
 import logo2 from "assets/images/logos/huaLogoSmall.png"
 import logo3 from "assets/images/logos/NOA-logo.png"

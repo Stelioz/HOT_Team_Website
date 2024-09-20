@@ -43,7 +43,7 @@ import bgImage from "assets/images/projects/phineas/phineashelllo.jpg";
 import post1 from "assets/images/projects/phineas/phim1.jpg";
 import post2 from "assets/images/projects/phineas/phineas.png";
 import post3 from "assets/images/projects/phineas/phineashello2.png";
-import post4 from "assets/images/projects/phineas/phin2.png";
+// import post4 from "assets/images/projects/phineas/phin2.png";
 import logo1 from "assets/images/logos/hot_transp.png"
 import logo2 from "assets/images/logos/huaLogoSmall.png"
 

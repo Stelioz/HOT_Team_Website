@@ -15,11 +15,11 @@ Coded by www.creative-tim.com
 
 // @mui material components
 import Card from "@mui/material/Card";
-import CardMedia from "@mui/material/CardMedia";
-import Container from "@mui/material/Container";
+// import CardMedia from "@mui/material/CardMedia";
+// import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
+// import List from "@mui/material/List";
+// import ListItem from "@mui/material/ListItem";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -30,8 +30,8 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Author page sections
 import Footer from "examples/Footers/CenteredFooter";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { icon } from '@fortawesome/fontawesome-svg-core/import.macro';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { icon } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 // Routes
 import routes from "routes";
@@ -39,12 +39,12 @@ import routes from "routes";
 // Images
 import bgImage from "assets/images/projects/bosch/1701436364199.jpg";
 import underConst from "assets/images/illustrations/under-const-illu.png";
-import post1 from "assets/images/examples/testimonial-6-2.jpg";
-import post2 from "assets/images/examples/testimonial-6-3.jpg";
-import post3 from "assets/images/examples/blog-9-4.jpg";
-import post4 from "assets/images/examples/blog2.jpg";
-import logo1 from "assets/images/logos/hot_transp.png"
-import logo2 from "assets/images/logos/huaLogoSmall.png"
+// import post1 from "assets/images/examples/testimonial-6-2.jpg";
+// import post2 from "assets/images/examples/testimonial-6-3.jpg";
+// import post3 from "assets/images/examples/blog-9-4.jpg";
+// import post4 from "assets/images/examples/blog2.jpg";
+// import logo1 from "assets/images/logos/hot_transp.png"
+// import logo2 from "assets/images/logos/huaLogoSmall.png"
 
 function BFMC() {
   return (

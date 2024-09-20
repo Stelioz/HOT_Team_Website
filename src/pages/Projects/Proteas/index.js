@@ -42,8 +42,8 @@ import routes from "routes";
 import bgImage from "assets/images/projects/proteas/prot1.png";
 import post1 from "assets/images/projects/proteas/prot1.png";
 import post2 from "assets/images/projects/proteas/prot2.png";
-import post3 from "assets/images/examples/blog-9-4.jpg";
-import post4 from "assets/images/examples/blog2.jpg";
+// import post3 from "assets/images/examples/blog-9-4.jpg";
+// import post4 from "assets/images/examples/blog2.jpg";
 import logo1 from "assets/images/logos/hot_transp.png"
 import logo2 from "assets/images/logos/huaLogoSmall.png"
 import logo3 from "assets/images/logos/GFOSSLogoSmall.png"

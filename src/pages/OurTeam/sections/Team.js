@@ -25,11 +25,11 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import MailIcon from "@mui/icons-material/Mail";
+// import MailIcon from "@mui/icons-material/Mail";
 
 // Images
-import team1 from "assets/images/team/iv.jpg";
-import team2 from "assets/images/team/cc.jpg";
+// import team1 from "assets/images/team/iv.jpg";
+// import team2 from "assets/images/team/cc.jpg";
 import team3 from "assets/images/team/ep2.jpg";
 import team4 from "assets/images/team/gk.png";
 import team5 from "assets/images/team/sr.jpg";
@@ -52,126 +52,42 @@ function Team() {
       mx={-2}
     >
       <Container>
-        <Grid container spacing={3}>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={1}>
-              <HorizontalTeamCard
-                image={team1}
-                name="Iraklis Varlamis"
-                position={{ color: "#004978", label: "Professor" }}
-                description={{
-                  color: "#004978",
-                  content: (
-                    <>
-                      <p>
-                      <span style={{ display: "flex", alignItems: "center" }}>
-                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
-                        <a
-                          href="https://www.linkedin.com/in/iraklis-varlamis-64a5251/"
-                          target="_blank"
-                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                        >
-                            LinkedIn
-                        </a>
-                        {/* <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />
-                        <a
-                          href="https://github.com/username"
-                          target="_blank"
-                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                        >
-                        GitHub
-                        </a> */}
-                        </span>
-                        {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
-                        <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
-                        <a
-                          href="mailto:varlamis@hua.gr"
-                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                        >
-                        varlamis@hua.gr
-                        </a>
-                        </span> */}
-                      </p>
-                    </>
-                  ),
-                }}
-              />
-
-            </MKBox>
+        <Grid container>
+          <Grid item xs={12} md={8} sx={{ mb: 3 }}>
+            <MKTypography variant="h3" color="white">
+              The Team
+            </MKTypography>
           </Grid>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={1}>
-              <HorizontalTeamCard
-                image={team2}
-                name="Christos Chronis"
-                position={{ color: "#004978", label: "PhD Candidate" }}
-                description={{
-                  color: "#004978",
-                  content: (
-                    <>
-                      <p>
-                      <span style={{ display: "flex", alignItems: "center" }}>
-                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
-                        <a
-                        href="https://www.linkedin.com/in/chr-chronis/"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        LinkedIn
-                      </a>
-                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
-                      <a
-                        href="https://github.com/chronis10"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        GitHub
-                        </a>
-                        </span>
-                        {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
-                        <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
-                        <a
-                          href="mailto:chronis@hua.gr"
-                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                        >
-                        chronis@hua.gr
-                        </a>
-                        </span> */}
-                      </p>
-                    </>
-                  ),
-                }}
-              />
-            </MKBox>
-          </Grid>
+        </Grid>
+        <Grid container spacing={3} sx={{ mb: 3 }}>
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={team4}
                 name="Giorgos Kazazis"
-                position={{ color: "#004978", label: "MPill Student" }}
+                position={{ color: "#004978", label: "MPhil Student" }}
                 description={{
                   color: "#004978",
                   content: (
                     <>
                       <p>
-                      <span style={{ display: "flex", alignItems: "center" }}>
-                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
-                        <a
-                        href="https://www.linkedin.com/in/georgekazazis/"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        LinkedIn
-                      </a>
-                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
-                      <a
-                        href="https://github.com/Maagnitude"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        GitHub
-                        </a>
+                        <span style={{ display: "flex", alignItems: "center" }}>
+                          <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                          <a
+                            href="https://www.linkedin.com/in/georgekazazis/"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            LinkedIn
+                          </a>
+                          <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                          <a
+                            href="https://github.com/Maagnitude"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            GitHub
+                          </a>
                         </span>
                         {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
@@ -194,29 +110,29 @@ function Team() {
               <HorizontalTeamCard
                 image={team3}
                 name="Eleftheria Papageorgiou"
-                position={{ color: "#004978", label: "MPill Student" }}
+                position={{ color: "#004978", label: "MPhil Student" }}
                 description={{
                   color: "#004978",
                   content: (
                     <>
                       <p>
-                      <span style={{ display: "flex", alignItems: "center" }}>
-                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
-                        <a
-                        href="https://www.linkedin.com/in/eleftheria-papageorgiou-960b421b7/"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        LinkedIn
-                      </a>
-                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
-                      <a
-                        href="https://github.com/Eleftheria-99"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        GitHub
-                        </a>
+                        <span style={{ display: "flex", alignItems: "center" }}>
+                          <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                          <a
+                            href="https://www.linkedin.com/in/eleftheria-papageorgiou-960b421b7/"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            LinkedIn
+                          </a>
+                          <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                          <a
+                            href="https://github.com/Eleftheria-99"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            GitHub
+                          </a>
                         </span>
                         {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
@@ -245,16 +161,16 @@ function Team() {
                   content: (
                     <>
                       <p>
-                      <span style={{ display: "flex", alignItems: "center" }}>
-                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
-                        <a
-                        href="https://www.linkedin.com/in/thanos-apostolidis-3255591b1/"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        LinkedIn
-                      </a>
-                      {/* <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                        <span style={{ display: "flex", alignItems: "center" }}>
+                          <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                          <a
+                            href="https://www.linkedin.com/in/thanos-apostolidis-3255591b1/"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            LinkedIn
+                          </a>
+                          {/* <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
                       <a
                         href="https://github.com/username"
                         target="_blank"
@@ -290,16 +206,16 @@ function Team() {
                   content: (
                     <>
                       <p>
-                      <span style={{ display: "flex", alignItems: "center" }}>
-                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
-                        <a
-                        href="https://www.linkedin.com/in/spyridon-rallis-11520618a/"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        LinkedIn
-                      </a>
-                      {/* <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                        <span style={{ display: "flex", alignItems: "center" }}>
+                          <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                          <a
+                            href="https://www.linkedin.com/in/spyridon-rallis-11520618a/"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            LinkedIn
+                          </a>
+                          {/* <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
                       <a
                         href="https://github.com/username"
                         target="_blank"
@@ -335,23 +251,23 @@ function Team() {
                   content: (
                     <>
                       <p>
-                      <span style={{ display: "flex", alignItems: "center" }}>
-                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
-                        <a
-                        href="https://www.linkedin.com/in/dimitris-charitos/"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        LinkedIn
-                      </a>
-                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
-                      <a
-                        href="https://github.com/Niroth36"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        GitHub
-                        </a>
+                        <span style={{ display: "flex", alignItems: "center" }}>
+                          <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                          <a
+                            href="https://www.linkedin.com/in/dimitris-charitos/"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            LinkedIn
+                          </a>
+                          <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                          <a
+                            href="https://github.com/Niroth36"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            GitHub
+                          </a>
                         </span>
                         {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
@@ -380,23 +296,23 @@ function Team() {
                   content: (
                     <>
                       <p>
-                      <span style={{ display: "flex", alignItems: "center" }}>
-                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
-                        <a
-                        href="https://www.linkedin.com/in/jason-alexander-karafotias/"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        LinkedIn
-                      </a>
-                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
-                      <a
-                        href="https://github.com/JalexBf"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        GitHub
-                        </a>
+                        <span style={{ display: "flex", alignItems: "center" }}>
+                          <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                          <a
+                            href="https://www.linkedin.com/in/jason-alexander-karafotias/"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            LinkedIn
+                          </a>
+                          <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                          <a
+                            href="https://github.com/JalexBf"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            GitHub
+                          </a>
                         </span>
                         {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
@@ -425,23 +341,23 @@ function Team() {
                   content: (
                     <>
                       <p>
-                      <span style={{ display: "flex", alignItems: "center" }}>
-                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
-                        <a
-                        href="https://www.linkedin.com/in/evangeloskostakis/"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        LinkedIn
-                      </a>
-                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
-                      <a
-                        href="https://github.com/acendia"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        GitHub
-                        </a>
+                        <span style={{ display: "flex", alignItems: "center" }}>
+                          <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                          <a
+                            href="https://www.linkedin.com/in/evangeloskostakis/"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            LinkedIn
+                          </a>
+                          <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                          <a
+                            href="https://github.com/acendia"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            GitHub
+                          </a>
                         </span>
                         {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
@@ -470,23 +386,23 @@ function Team() {
                   content: (
                     <>
                       <p>
-                      <span style={{ display: "flex", alignItems: "center" }}>
-                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
-                        <a
-                        href="https://www.linkedin.com/in/manouslinard/"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        LinkedIn
-                      </a>
-                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
-                      <a
-                        href="https://github.com/manouslinard"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        GitHub
-                        </a>
+                        <span style={{ display: "flex", alignItems: "center" }}>
+                          <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                          <a
+                            href="https://www.linkedin.com/in/manouslinard/"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            LinkedIn
+                          </a>
+                          <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                          <a
+                            href="https://github.com/manouslinard"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            GitHub
+                          </a>
                         </span>
                         {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
@@ -515,16 +431,16 @@ function Team() {
                   content: (
                     <>
                       <p>
-                      <span style={{ display: "flex", alignItems: "center" }}>
-                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
-                        <a
-                        href="https://www.linkedin.com/in/iliastolos/"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        LinkedIn
-                      </a>
-                      {/* <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                        <span style={{ display: "flex", alignItems: "center" }}>
+                          <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                          <a
+                            href="https://www.linkedin.com/in/iliastolos/"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            LinkedIn
+                          </a>
+                          {/* <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
                       <a
                         href="https://github.com/username"
                         target="_blank"
@@ -560,23 +476,23 @@ function Team() {
                   content: (
                     <>
                       <p>
-                      <span style={{ display: "flex", alignItems: "center" }}>
-                        <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
-                        <a
-                        href="https://www.linkedin.com/in/stelios-zindros-5a0401298/"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        LinkedIn
-                      </a>
-                      <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
-                      <a
-                        href="https://github.com/Stelioz"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        GitHub
-                        </a>
+                        <span style={{ display: "flex", alignItems: "center" }}>
+                          <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
+                          <a
+                            href="https://www.linkedin.com/in/stelios-zindros-5a0401298/"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            LinkedIn
+                          </a>
+                          <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
+                          <a
+                            href="https://github.com/Stelioz"
+                            target="_blank"
+                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
+                          >
+                            GitHub
+                          </a>
                         </span>
                         {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
                         <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
