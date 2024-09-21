@@ -28,10 +28,10 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 // import MailIcon from "@mui/icons-material/Mail";
 
 // Images
-import team1 from "assets/images/team/ep2.jpg";
-import team2 from "assets/images/team/gk.png";
-import team3 from "assets/images/team/sr.jpg";
-import team4 from "assets/images/team/ta.jpeg";
+import team1 from "assets/images/team/gk.png";
+import team2 from "assets/images/team/ep2.jpg";
+import team3 from "assets/images/team/ta.jpeg";
+import team4 from "assets/images/team/sr.jpg";
 import team5 from "assets/images/team/dc.png";
 import team6 from "assets/images/team/jk.jpg";
 import team7 from "assets/images/team/ml.jpg";
