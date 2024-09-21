@@ -158,10 +158,10 @@ function Home() {
                 team is a dynamic blend of individuals who are deeply passionate about technology. We
                 are dedicated to the development and promotion of open-source technologies. HOT is
                 built on a foundation that encourages knowledge sharing and creativity, aiming to
-                leverage the collective intelligence of our members to forge innovative solutions. 
+                leverage the collective intelligence of our members to forge innovative solutions.
                 Our ethos centers around openness, inclusivity, and the democratization of technology.
-                 Through these principles, we endeavor to make a significant impact in the technological 
-                 field and contribute meaningfully to the worldwide community of open-source enthusiasts.
+                Through these principles, we endeavor to make a significant impact in the technological
+                field and contribute meaningfully to the worldwide community of open-source enthusiasts.
               </MKTypography>
             </Grid>
           </Grid>
@@ -178,7 +178,14 @@ function Home() {
           <MainArticle />
         </Container>
         <Container>
-          <Grid container spacing={3} mt={1} mb={3}>
+          <Grid>
+            <MKTypography variant="h4" color="black" ml={2} mt={5} mb={1}>
+              Also Check
+            </MKTypography>
+          </Grid>
+        </Container>
+        <Container>
+          <Grid container spacing={3} mt={0} mb={4}>
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
                 // variant="gradient"
@@ -219,7 +226,7 @@ function Home() {
                 }}
               />
             </Grid>
-            <Grid item xs={12} lg={4}>
+            {/* <Grid item xs={12} lg={4}>
               <FilledInfoCard
                 color="info"
                 icon="memory"
@@ -244,7 +251,7 @@ function Home() {
                   label: "Read more",
                 }}
               />
-            </Grid>
+            </Grid> */}
           </Grid>
         </Container>
         {/* <Testimonials /> */}

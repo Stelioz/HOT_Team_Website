@@ -28,18 +28,14 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 // import MailIcon from "@mui/icons-material/Mail";
 
 // Images
-// import team1 from "assets/images/team/iv.jpg";
-// import team2 from "assets/images/team/cc.jpg";
-import team3 from "assets/images/team/ep2.jpg";
-import team4 from "assets/images/team/gk.png";
-import team5 from "assets/images/team/sr.jpg";
-import team6 from "assets/images/team/ta.jpeg";
-import team7 from "assets/images/team/jk.jpg";
-import team8 from "assets/images/team/it.jpg";
-import team9 from "assets/images/team/vk.jpg";
-import team10 from "assets/images/team/dc.png";
-import team11 from "assets/images/team/ml.jpg";
-import team12 from "assets/images/team/sz.jpg";
+import team1 from "assets/images/team/ep2.jpg";
+import team2 from "assets/images/team/gk.png";
+import team3 from "assets/images/team/sr.jpg";
+import team4 from "assets/images/team/ta.jpeg";
+import team5 from "assets/images/team/dc.png";
+import team6 from "assets/images/team/jk.jpg";
+import team7 from "assets/images/team/ml.jpg";
+import team8 from "assets/images/team/sz.jpg";
 
 function Team() {
   return (
@@ -55,7 +51,7 @@ function Team() {
         <Grid container>
           <Grid item xs={12} md={8} sx={{ mb: 3 }}>
             <MKTypography variant="h3" color="white">
-              The Team
+              Team Members
             </MKTypography>
           </Grid>
         </Grid>
@@ -63,7 +59,7 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team4}
+                image={team1}
                 name="Giorgos Kazazis"
                 position={{ color: "#004978", label: "MPhil Student" }}
                 description={{
@@ -108,7 +104,7 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team3}
+                image={team2}
                 name="Eleftheria Papageorgiou"
                 position={{ color: "#004978", label: "MPhil Student" }}
                 description={{
@@ -153,7 +149,7 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team6}
+                image={team3}
                 name="Thanos Apostolidis"
                 position={{ color: "#004978", label: "Graduate Student" }}
                 description={{
@@ -198,7 +194,7 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team5}
+                image={team4}
                 name="Spyridon Rallis"
                 position={{ color: "#004978", label: "Graduate Student" }}
                 description={{
@@ -243,9 +239,9 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team10}
+                image={team5}
                 name="Dimitris Charitos"
-                position={{ color: "#004978", label: "Undergraduate Student" }}
+                position={{ color: "#004978", label: "MSc Student" }}
                 description={{
                   color: "#004978",
                   content: (
@@ -288,7 +284,7 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team7}
+                image={team6}
                 name="Jason Karafotias"
                 position={{ color: "#004978", label: "Undergraduate Student" }}
                 description={{
@@ -333,54 +329,9 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team9}
-                name="Vaggelis Kostakis"
-                position={{ color: "#004978", label: "Undergraduate Student" }}
-                description={{
-                  color: "#004978",
-                  content: (
-                    <>
-                      <p>
-                        <span style={{ display: "flex", alignItems: "center" }}>
-                          <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
-                          <a
-                            href="https://www.linkedin.com/in/evangeloskostakis/"
-                            target="_blank"
-                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                          >
-                            LinkedIn
-                          </a>
-                          <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
-                          <a
-                            href="https://github.com/acendia"
-                            target="_blank"
-                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                          >
-                            GitHub
-                          </a>
-                        </span>
-                        {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
-                        <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
-                        <a
-                          href="mailto:tba@hua.gr"
-                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                        >
-                        tba@hua.gr
-                        </a>
-                        </span> */}
-                      </p>
-                    </>
-                  ),
-                }}
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={{ xs: 1, lg: 0 }}>
-              <HorizontalTeamCard
-                image={team11}
+                image={team7}
                 name="Manousos Linardakis"
-                position={{ color: "#004978", label: "Undergraduate Student" }}
+                position={{ color: "#004978", label: "Graduate Student" }}
                 description={{
                   color: "#004978",
                   content: (
@@ -424,51 +375,6 @@ function Team() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={team8}
-                name="Ilias Tolos"
-                position={{ color: "#004978", label: "Undergraduate Student" }}
-                description={{
-                  color: "#004978",
-                  content: (
-                    <>
-                      <p>
-                        <span style={{ display: "flex", alignItems: "center" }}>
-                          <LinkedInIcon fontSize="small" style={{ marginLeft: "-2px" }} />
-                          <a
-                            href="https://www.linkedin.com/in/iliastolos/"
-                            target="_blank"
-                            style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                          >
-                            LinkedIn
-                          </a>
-                          {/* <GitHubIcon fontSize="small" style={{ marginLeft: "10px" }} />{" "}
-                      <a
-                        href="https://github.com/username"
-                        target="_blank"
-                        style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                      >
-                        GitHub
-                        </a> */}
-                        </span>
-                        {/* <span style={{ display: "flex", alignItems: "center", marginTop: "4px" }}>
-                        <MailIcon fontSize="small" style={{ marginTop: "0px", marginLeft: "-2px" }} />
-                        <a
-                          href="mailto:tba@hua.gr"
-                          style={{ color: "black", fontSize: "smaller", marginLeft: "3px", marginRight: "8px" }}
-                        >
-                        tba@hua.gr
-                        </a>
-                        </span> */}
-                      </p>
-                    </>
-                  ),
-                }}
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={{ xs: 1, lg: 0 }}>
-              <HorizontalTeamCard
-                image={team12}
                 name="Stylianos Zindros"
                 position={{ color: "#004978", label: "MSc Student" }}
                 description={{

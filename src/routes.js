@@ -38,6 +38,7 @@ Coded by www.creative-tim.com
 
 // @mui material components
 import Icon from "@mui/material/Icon";
+import SchoolIcon from '@mui/icons-material/School';
 
 // @mui icons
 // import GitHubIcon from "@mui/icons-material/GitHub";
@@ -72,7 +73,7 @@ import Fossbot from "pages/Projects/Fossbot";
 import Firefighter from "pages/Projects/Firefighter";
 import Noa from "pages/Projects/NOA_Beyond_7I12";
 import Proteas from "pages/Projects/Proteas";
-import BFMC from "pages/Projects/Bosch_Challenge";
+// import BFMC from "pages/Projects/Bosch_Challenge";
 import OurTeam from "pages/OurTeam";
 
 const routes = [
@@ -80,11 +81,11 @@ const routes = [
     name: "projects",
     icon: <Icon>dashboard</Icon>,
     collapse: [
-      {
-        name: "Bosch Future Mobility",
-        route: "/projects/bfmc",
-        component: <BFMC />,
-      },
+      // {
+      //   name: "Bosch Future Mobility",
+      //   route: "/projects/bfmc",
+      //   component: <BFMC />,
+      // },
       {
         name: "Firefighter Turret",
         route: "/projects/firefighter",
@@ -244,37 +245,37 @@ const routes = [
   //     },
   //   ],
   // },
-  // {
-  //   name: "docs",
-  //   icon: <Icon>article</Icon>,
-  //   collapse: [
-  //     {
-  //       name: "getting started",
-  //       description: "All about overview, quick start, license and contents",
-  //       href: "https://www.creative-tim.com/learning-lab/react/quick-start/material-kit/",
-  //     },
-  //     {
-  //       name: "foundation",
-  //       description: "See our colors, icons and typography",
-  //       href: "https://www.creative-tim.com/learning-lab/react/colors/material-kit/",
-  //     },
-  //     {
-  //       name: "components",
-  //       description: "Explore our collection of fully designed components",
-  //       href: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
-  //     },
-  //     {
-  //       name: "plugins",
-  //       description: "Check how you can integrate our plugins",
-  //       href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-kit/",
-  //     },
-  //   ],
-  // },
   {
     name: "Our Team",
     icon: <Icon>groups</Icon>,
     route: "/ourteam",
     component: <OurTeam />,
+  },
+  {
+    name: "University",
+    icon: <SchoolIcon/ >,
+    collapse: [
+      {
+        name: "Visit HUA",
+        description: "Harokopio University of Athens",
+        href: "https://www.hua.gr/en/",
+      },
+      {
+        name: "Visit DIT",
+        description: "Department of Informatics and Telematics",
+        href: "https://dit.hua.gr/index.php/en/",
+      },
+      // {
+      //   name: "components",
+      //   description: "Explore our collection of fully designed components",
+      //   href: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
+      // },
+      // {
+      //   name: "plugins",
+      //   description: "Check how you can integrate our plugins",
+      //   href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-kit/",
+      // },
+    ],
   },
   // {
   //   name: "contact us",
