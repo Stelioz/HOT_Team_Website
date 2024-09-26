@@ -106,7 +106,7 @@ function Noa() {
                 About the Project
               </MKTypography>
               <Container>
-                <MKTypography variant="body1" fontWeight="light" color="black" mb={2}>
+                <MKTypography variant="body1" fontWeight="light" color="black" mb={2} textAlign="justify">
                   Introducing our state-of-the-art satellite equipped with cutting-edge features for fire detection. Utilizing a camera for precise identification, the
                   satellite boasts a foldable panel and communication antenna system for operational flexibility. It incorporates solar panels for sustainable charging
                   and a multitude of sensors for comprehensive data acquisition. The advanced image and data telemetry system ensures real-time monitoring. Powered by
@@ -229,9 +229,15 @@ function Noa() {
                     <MKTypography variant="h4" color="black" ml={0} mt={5} mb={2}>
                       Partners
                     </MKTypography>
-                    <MKBox component="img" src={logo1} width="60px" sx={{ marginRight: '10px' }} />
-                    <MKBox component="img" src={logo2} width="70px" sx={{ marginRight: '10px' }} />
-                    <MKBox component="img" src={logo3} width="70px" sx={{ marginRight: '10px' }} />
+                    <a href="https://hot.dit.hua.gr/" target="_self" rel="noopener noreferrer">
+                      <MKBox component="img" src={logo1} width="60px" sx={{ marginRight: '10px' }} />
+                    </a>
+                    <a href="https://www.hua.gr/en/" target="_blank" rel="noopener noreferrer">
+                      <MKBox component="img" src={logo2} width="70px" sx={{ marginRight: '10px' }} />
+                    </a>
+                    <a href="https://www.noa.gr/en/" target="_blank" rel="noopener noreferrer">
+                      <MKBox component="img" src={logo3} width="70px" sx={{ marginRight: '10px' }} />
+                    </a>
                   </Container>
                 </Grid>
               </Grid>

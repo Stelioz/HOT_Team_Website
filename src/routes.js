@@ -87,19 +87,14 @@ const routes = [
       //   component: <BFMC />,
       // },
       {
+        name: "FOSSBot",
+        route: "/projects/fossbot",
+        component: <Fossbot />,
+      },
+      {
         name: "Firefighter Turret",
         route: "/projects/firefighter",
         component: <Firefighter />,
-      },
-      {
-        name: "Proteas",
-        route: "/projects/proteas",
-        component: <Proteas />,
-      },
-      {
-        name: "FOSSbot",
-        route: "/projects/fossbot",
-        component: <Fossbot />,
       },
       {
         name: "NOA Beyond 7I12",
@@ -110,6 +105,11 @@ const routes = [
         name: "Phineas",
         route: "/projects/phineas",
         component: <Phineas />,
+      },
+      {
+        name: "Proteas",
+        route: "/projects/proteas",
+        component: <Proteas />,
       },
     ],
   },

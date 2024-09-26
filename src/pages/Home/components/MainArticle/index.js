@@ -57,7 +57,7 @@ function MainArticle() {
             mt={1}>
             FOSSBot
           </MKTypography>
-          <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={6}>
+          <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={6} textAlign="justify">
             FOSSBot is an open source and open design DIY robot that has been developed by Greek Free & Open Source Software
             (GFOSS) and Harokopio University of Athens (HUA) for educational purposes. The robot does not come alone, but comprises
             multiple software and system solutions that provide a holistic approach for STEM education at all educational levels.
@@ -67,7 +67,7 @@ function MainArticle() {
             to="https://fossbot.gr/landing-page" // Use "to" instead of "href" for React Router
             target="_blank"
             // rel="noreferrer"
-            variant="body2"
+            variant="body1"
             color="white"
             fontWeight="bold"
             sx={{
@@ -85,7 +85,7 @@ function MainArticle() {
               },
             }}
           >
-            Visit FOSSBot Platform <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+            Visit FOSSBot Platform <Icon sx={{ fontWeight: "bold", color: "#FFA500"}}>arrow_forward</Icon>
           </MKTypography>
         </Grid>
       </Container>

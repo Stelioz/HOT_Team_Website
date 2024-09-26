@@ -105,17 +105,17 @@ function Firefighter() {
                 About the Project
               </MKTypography>
               <Container>
-                  <MKTypography variant="body1" fontWeight="light" color="black" mb={2}>
-                    Introducing our cutting-edge fire detection system, featuring an AI model based on YOLO V3 for precise identification with two degrees of freedom
-                    targeting. This innovative system employs a camera for detection, verification through a laser, and seamless integration with a continuous supply
-                    of firefighting fluid, ensuring swift response. Engineered with adjustable flow and designed for easy reproduction using fire-resistant materials,
-                    our solution prioritizes safety. Powered by Python and C, with Arduino for electronics and control, and leveraging the capabilities of Nvidia Jetson
-                    Nano for AI fire detection, our system operates with full autonomy, providing a robust and reliable fire safety solution for diverse environments.
-                  </MKTypography>
-                </Container>
-                <PhotoProvider>
+                <MKTypography variant="body1" fontWeight="light" color="black" mb={2} textAlign="justify">
+                  Introducing our cutting-edge fire detection system, featuring an AI model based on YOLO V3 for precise identification with two degrees of freedom
+                  targeting. This innovative system employs a camera for detection, verification through a laser, and seamless integration with a continuous supply
+                  of firefighting fluid, ensuring swift response. Engineered with adjustable flow and designed for easy reproduction using fire-resistant materials,
+                  our solution prioritizes safety. Powered by Python and C, with Arduino for electronics and control, and leveraging the capabilities of Nvidia Jetson
+                  Nano for AI fire detection, our system operates with full autonomy, providing a robust and reliable fire safety solution for diverse environments.
+                </MKTypography>
+              </Container>
+              <PhotoProvider>
                 <Grid container spacing={0}>
-                <Grid item xs={12} sm={12} lg={12}>
+                  <Grid item xs={12} sm={12} lg={12}>
                     <PhotoView src={post1}>
                       <CardMedia image={post1} sx={{ height: "416px" }} />
                     </PhotoView>
@@ -244,8 +244,12 @@ function Firefighter() {
                     <MKTypography variant="h4" color="black" ml={0} mt={5} mb={2}>
                       Partners
                     </MKTypography>
-                    <MKBox component="img" src={logo1} width="60px" sx={{ marginRight: '10px' }} />
-                    <MKBox component="img" src={logo2} width="70px" sx={{ marginRight: '10px' }} />
+                    <a href="https://hot.dit.hua.gr/" target="_self" rel="noopener noreferrer">
+                      <MKBox component="img" src={logo1} width="60px" sx={{ marginRight: '10px' }} />
+                    </a>
+                    <a href="https://www.hua.gr/en/" target="_blank" rel="noopener noreferrer">
+                      <MKBox component="img" src={logo2} width="70px" sx={{ marginRight: '10px' }} />
+                    </a>
                   </Container>
                 </Grid>
               </Grid>

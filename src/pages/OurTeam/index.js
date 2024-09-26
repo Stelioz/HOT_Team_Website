@@ -158,7 +158,7 @@ function OurTeam() {
           </MKTypography> */}
           <Grid container spacing={3} mt={2} mb={7}>
             <Grid item ml={2} xs={12} sm={12} lg={12}>
-              <MKTypography variant="body1" fontWeight="light" color="black">
+              <MKTypography variant="body1" fontWeight="light" color="black" textAlign="justify">
                 Our dynamic team, comprised of talented students from Harokopio University, is passionately dedicated to the development of open-access software and
                 beyond. Together, we strive to create innovative solutions that transcend boundaries and empower users with accessible, high-quality tools. Fueled
                 by a shared commitment to learning, collaboration, and creativity, our team embraces the challenges of software development, fostering an environment

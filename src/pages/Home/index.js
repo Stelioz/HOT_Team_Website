@@ -30,7 +30,7 @@ import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
 import Counters from "pages/Home/sections/Counters";
-import InfoCard from "pages/Home/sections/InfoCard";
+// import InfoCard from "pages/Home/sections/InfoCard";
 // import Information from "pages/Presentation/sections/Information";
 // import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
 // import Pages from "pages/Presentation/sections/Pages";
@@ -152,7 +152,7 @@ function Home() {
         <Container>
           <Grid container spacing={3} mt={2}>
             <Grid item ml={2} xs={12} sm={12} lg={12}>
-              <MKTypography variant="body1" fontWeight="light" color="black">
+              <MKTypography variant="body1" fontWeight="light" color="black" textAlign="justify">
                 Harokopio Open Technologies (HOT), created in 2018, embodies a spirit of innovation and collaboration,
                 drawing its vibrant energy from the community at Harokopio University of Athens. Our
                 team is a dynamic blend of individuals who are deeply passionate about technology. We

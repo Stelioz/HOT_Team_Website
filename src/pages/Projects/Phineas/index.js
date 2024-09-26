@@ -105,7 +105,7 @@ function Phineas() {
                 About the Project
               </MKTypography>
               <Container>
-                <MKTypography variant="body1" fontWeight="light" color="black" mb={2}>
+                <MKTypography variant="body1" fontWeight="light" color="black" mb={2} textAlign="justify">
                   Phineas is a fully 3D-printed robot, boasting cutting-edge technologies.
                   It is equipped with speech recognition and voice commands, alongside a user-friendly
                   touch-screen interface, enhancing its interactive capabilities. Additionally,
@@ -273,8 +273,12 @@ function Phineas() {
                     <MKTypography variant="h4" color="black" ml={0} mt={5} mb={2}>
                       Partners
                     </MKTypography>
-                    <MKBox component="img" src={logo1} width="60px" sx={{ marginRight: '10px' }} />
-                    <MKBox component="img" src={logo2} width="70px" sx={{ marginRight: '10px' }} />
+                    <a href="https://hot.dit.hua.gr/" target="_self" rel="noopener noreferrer">
+                      <MKBox component="img" src={logo1} width="60px" sx={{ marginRight: '10px' }} />
+                    </a>
+                    <a href="https://www.hua.gr/en/" target="_blank" rel="noopener noreferrer">
+                      <MKBox component="img" src={logo2} width="70px" sx={{ marginRight: '10px' }} />
+                    </a>
                   </Container>
                 </Grid>
               </Grid>

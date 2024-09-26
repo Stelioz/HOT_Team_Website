@@ -100,28 +100,28 @@ function Proteas() {
           }}
         >
 
-<MKBox component="section" py={3}>
+          <MKBox component="section" py={3}>
 
-<Container>
-  <MKTypography variant="h3" color="black" ml={3} mb={3}>
-    About the Project
-  </MKTypography>
-  <Container>
-    <MKTypography variant="body1" fontWeight="light" color="black" mb={2}>
-      Introducing our versatile solution with an easy and stable assembly, free from screws and tools, and an articulated design allowing flexible component
-      rearrangement to meet diverse application needs. The design incorporates special compartments for convenient placement of most components, ensuring
-      quick and protected assembly. Leveraging cutting-edge technologies, including a new Python library, Raspberry Pi 3, and Jupyter Notebook for interactive
-      code execution during lessons, our solution offers a seamless blend of innovation and practicality. Explore the efficiency of our system, designed for
-      rapid deployment and adaptable to various educational and technological requirements.
-    </MKTypography>
-  </Container>
-  <PhotoProvider>
-    <Grid container spacing={0}>
-    <Grid item xs={12} sm={6} lg={6}>
-        <PhotoView src={post1}>
-          <CardMedia image={post1} sx={{ height: "416px" }} />
-        </PhotoView>
-        {/* <Grid container spacing={0}>
+            <Container>
+              <MKTypography variant="h3" color="black" ml={3} mb={3}>
+                About the Project
+              </MKTypography>
+              <Container>
+                <MKTypography variant="body1" fontWeight="light" color="black" mb={2} textAlign="justify">
+                  Introducing our versatile solution with an easy and stable assembly, free from screws and tools, and an articulated design allowing flexible component
+                  rearrangement to meet diverse application needs. The design incorporates special compartments for convenient placement of most components, ensuring
+                  quick and protected assembly. Leveraging cutting-edge technologies, including a new Python library, Raspberry Pi 3, and Jupyter Notebook for interactive
+                  code execution during lessons, our solution offers a seamless blend of innovation and practicality. Explore the efficiency of our system, designed for
+                  rapid deployment and adaptable to various educational and technological requirements.
+                </MKTypography>
+              </Container>
+              <PhotoProvider>
+                <Grid container spacing={0}>
+                  <Grid item xs={12} sm={6} lg={6}>
+                    <PhotoView src={post1}>
+                      <CardMedia image={post1} sx={{ height: "416px" }} />
+                    </PhotoView>
+                    {/* <Grid container spacing={0}>
           <Grid item xs={12} sm={6} lg={6}>
             <PhotoView src={post4}>
               <CardMedia image={post4} sx={{ height: "200px" }} />
@@ -133,12 +133,12 @@ function Proteas() {
             </PhotoView>
           </Grid>
         </Grid> */}
-      </Grid>
-      <Grid item xs={12} sm={6} lg={6}>
-        <PhotoView src={post2}>
-          <CardMedia image={post2} sx={{ height: "416px" }} />
-        </PhotoView>
-        {/* <Grid container spacing={0}>
+                  </Grid>
+                  <Grid item xs={12} sm={6} lg={6}>
+                    <PhotoView src={post2}>
+                      <CardMedia image={post2} sx={{ height: "416px" }} />
+                    </PhotoView>
+                    {/* <Grid container spacing={0}>
           <Grid item xs={12} sm={6} lg={6}>
             <PhotoView src={post4}>
               <CardMedia image={post4} sx={{ height: "200px" }} />
@@ -150,105 +150,113 @@ function Proteas() {
             </PhotoView>
           </Grid>
         </Grid> */}
-      </Grid>
-    </Grid>
-  </PhotoProvider>
-</Container>
+                  </Grid>
+                </Grid>
+              </PhotoProvider>
+            </Container>
 
-<Container>
-  <Grid container spacing={1}>
-    <Grid item xs={12} sm={6}>
-      <Container>
-        <MKTypography variant="h4" color="black" ml={0} mt={5} mb={2}>
-          Specifications
-        </MKTypography>
+            <Container>
+              <Grid container spacing={1}>
+                <Grid item xs={12} sm={6}>
+                  <Container>
+                    <MKTypography variant="h4" color="black" ml={0} mt={5} mb={2}>
+                      Specifications
+                    </MKTypography>
 
-        <List>
-          <ListItem>
-            <FontAwesomeIcon icon={icon({ name: 'vector-square' })} style={{ color: "#004978" }} />
-            <MKTypography variant="body1" color="black" sx={{ marginLeft: "15px" }}>
-              Articulated Design.
-            </MKTypography>
-          </ListItem>
-          <ListItem>
-            <FontAwesomeIcon icon={icon({ name: 'swatchbook' })} style={{ color: "#004978" }} />
-            <MKTypography variant="body1" color="black" sx={{ marginLeft: "12px" }}>
-              Quick Assembly.
-            </MKTypography>
-          </ListItem>
-          <ListItem>
-            <FontAwesomeIcon icon={icon({ name: 'layer-group' })} style={{ color: "#004978" }} />
-            <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-              Easy and Stable Assembly Without Screws or Tools.
-            </MKTypography>
-          </ListItem>
-          <ListItem>
-            <FontAwesomeIcon icon={icon({ name: 'retweet' })} style={{ color: "#004978" }} />
-            <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-              Rearrangeable Components According to Application Needs.
-            </MKTypography>
-          </ListItem>
-          <ListItem>
-            <FontAwesomeIcon icon={icon({ name: 'check-to-slot' })} style={{ color: "#004978" }} />
-            <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-              Dedicated Component Compartments for Easy Placement.
-            </MKTypography>
-          </ListItem>
-          <ListItem>
-            <FontAwesomeIcon icon={icon({ name: 'bolt' })} style={{ color: "#004978" }} />
-            <MKTypography variant="body1" color="black" sx={{ marginLeft: "15px" }}>
-              Protection of Electronic Components.
-            </MKTypography>
-          </ListItem>
-        </List>
-      </Container>
-    </Grid>
+                    <List>
+                      <ListItem>
+                        <FontAwesomeIcon icon={icon({ name: 'vector-square' })} style={{ color: "#004978" }} />
+                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "15px" }}>
+                          Articulated Design.
+                        </MKTypography>
+                      </ListItem>
+                      <ListItem>
+                        <FontAwesomeIcon icon={icon({ name: 'swatchbook' })} style={{ color: "#004978" }} />
+                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "12px" }}>
+                          Quick Assembly.
+                        </MKTypography>
+                      </ListItem>
+                      <ListItem>
+                        <FontAwesomeIcon icon={icon({ name: 'layer-group' })} style={{ color: "#004978" }} />
+                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
+                          Easy and Stable Assembly Without Screws or Tools.
+                        </MKTypography>
+                      </ListItem>
+                      <ListItem>
+                        <FontAwesomeIcon icon={icon({ name: 'retweet' })} style={{ color: "#004978" }} />
+                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
+                          Rearrangeable Components According to Application Needs.
+                        </MKTypography>
+                      </ListItem>
+                      <ListItem>
+                        <FontAwesomeIcon icon={icon({ name: 'check-to-slot' })} style={{ color: "#004978" }} />
+                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
+                          Dedicated Component Compartments for Easy Placement.
+                        </MKTypography>
+                      </ListItem>
+                      <ListItem>
+                        <FontAwesomeIcon icon={icon({ name: 'bolt' })} style={{ color: "#004978" }} />
+                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "15px" }}>
+                          Protection of Electronic Components.
+                        </MKTypography>
+                      </ListItem>
+                    </List>
+                  </Container>
+                </Grid>
 
-    <Grid item xs={12} sm={6}>
-      <Container>
-        <MKTypography variant="h4" color="black" ml={0} mt={5} mb={2}>
-          Programming Stack
-        </MKTypography>
+                <Grid item xs={12} sm={6}>
+                  <Container>
+                    <MKTypography variant="h4" color="black" ml={0} mt={5} mb={2}>
+                      Programming Stack
+                    </MKTypography>
 
-        <List>
-          <ListItem>
-            <FontAwesomeIcon icon={icon({ name: 'microchip' })} style={{ color: "#004978" }} />
-            <MKTypography variant="body1" color="black" sx={{ marginLeft: "15px" }}>
-              Raspberry Pi 3.
-            </MKTypography>
-          </ListItem>
-          <ListItem>
-            <FontAwesomeIcon icon={icon({ name: 'code' })} style={{ color: "#004978" }} />
-            <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
-              New Python Library.
-            </MKTypography>
-          </ListItem>
-          <ListItem>
-            <FontAwesomeIcon icon={icon({ name: 'clipboard' })} style={{ color: "#004978" }} />
-            <MKTypography variant="body1" color="black" sx={{ marginLeft: "20px" }}>
-              Jupyter Notebook for Direct Code Execution.
-            </MKTypography>
-          </ListItem>
-        </List>
+                    <List>
+                      <ListItem>
+                        <FontAwesomeIcon icon={icon({ name: 'microchip' })} style={{ color: "#004978" }} />
+                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "15px" }}>
+                          Raspberry Pi 3.
+                        </MKTypography>
+                      </ListItem>
+                      <ListItem>
+                        <FontAwesomeIcon icon={icon({ name: 'code' })} style={{ color: "#004978" }} />
+                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "10px" }}>
+                          New Python Library.
+                        </MKTypography>
+                      </ListItem>
+                      <ListItem>
+                        <FontAwesomeIcon icon={icon({ name: 'clipboard' })} style={{ color: "#004978" }} />
+                        <MKTypography variant="body1" color="black" sx={{ marginLeft: "20px" }}>
+                          Jupyter Notebook for Direct Code Execution.
+                        </MKTypography>
+                      </ListItem>
+                    </List>
 
-        <MKTypography variant="h4" color="black" ml={0} mt={5} mb={2}>
-          Partners
-        </MKTypography>
-        <MKBox component="img" src={logo1} width="60px" sx={{ marginRight: '10px' }} />
-        <MKBox component="img" src={logo2} width="70px" sx={{ marginRight: '10px' }} />
-        <MKBox component="img" src={logo3} width="70px" sx={{ marginRight: '10px' }} />
-        <MKBox component="img" src={logo4} width="70px" sx={{ marginRight: '10px' }} />
-      </Container>
-    </Grid>
-  </Grid>
-</Container>
-</MKBox>
-</Card>
-{/* <Contact /> */}
-<Footer />
-</MKBox>
-</>
-);
+                    <MKTypography variant="h4" color="black" ml={0} mt={5} mb={2}>
+                      Partners
+                    </MKTypography>
+                    <a href="https://hot.dit.hua.gr/" target="_self" rel="noopener noreferrer">
+                      <MKBox component="img" src={logo1} width="60px" sx={{ marginRight: '10px' }} />
+                    </a>
+                    <a href="https://www.hua.gr/en/" target="_blank" rel="noopener noreferrer">
+                      <MKBox component="img" src={logo2} width="70px" sx={{ marginRight: '10px' }} />
+                    </a>
+                    <a href="https://gfoss.eu/" target="_blank" rel="noopener noreferrer">
+                      <MKBox component="img" src={logo3} width="70px" sx={{ marginRight: '10px' }} />
+                    </a>
+                    <a href="https://summerofcode.withgoogle.com/" target="_blank" rel="noopener noreferrer">
+                      <MKBox component="img" src={logo4} width="70px" sx={{ marginRight: '10px' }} />
+                    </a>
+                  </Container>
+                </Grid>
+              </Grid>
+            </Container>
+          </MKBox>
+        </Card>
+        {/* <Contact /> */}
+        <Footer />
+      </MKBox>
+    </>
+  );
 }
 
 export default Proteas;
