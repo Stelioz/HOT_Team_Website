@@ -3,7 +3,7 @@
 # [HAROKOPIO OPEN TECHNOLOGIES](https://hot.dit.hua.gr/) ![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 
 Harokopio Open Technologies (HOT), created in 2018, embodies a spirit of innovation and collaboration, drawing its vibrant energy from the community at Harokopio University of Athens. Our team is a dynamic blend of individuals who are deeply passionate about technology. We are dedicated to the development and promotion of open-source technologies. HOT is built on a foundation that encourages knowledge sharing and creativity, aiming to leverage the collective intelligence of our members to forge innovative solutions. Our ethos centers around openness, inclusivity, and the democratization of technology. Through these principles, we endeavor to make a significant impact in the technological field and contribute meaningfully to the worldwide community of open-source enthusiasts.
-<br/>
+<br/><br/>
 
 ## Installation
 1) Download and Install NodeJs LTS version from [NodeJs Official Page](https://nodejs.org/en/download/).
