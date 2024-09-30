@@ -52,9 +52,9 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/logos/huaBanner.jpg";
+import bgImage from "assets/images/logos/DitLab-enhanced.png";
 import logo from "assets/images/logos/hot_white.png";
-import post1 from "assets/images/ΗΟΤ/teamphoto1.jpg";
+import post1 from "assets/images/HotTeamPhotos/hotTeam2.jpg";
 import post2 from "assets/images/ΗΟΤ/fossas1.jpg";
 import post3 from "assets/images/ΗΟΤ/fossas2.jpg";
 import post4 from "assets/images/ΗΟΤ/teamphoto22.jpg";
@@ -87,7 +87,7 @@ function OurTeam() {
               rgba(gradients.dark.state, 0.8)
             )}, url(${bgImage})`,
           backgroundSize: "cover",
-          backgroundPosition: "top",
+          backgroundPosition: "bottom",
           display: "grid",
           placeItems: "center",
         }}

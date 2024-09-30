@@ -27,10 +27,12 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import PinterestIcon from "@mui/icons-material/Pinterest";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import logo from "assets/images/logos/huaLogoSmall.png"
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
+import Divider from '@mui/material/Divider';
 
 function CenteredFooter({ company, links, socials, light }) {
   const { href, name } = company;
@@ -66,6 +68,25 @@ function CenteredFooter({ company, links, socials, light }) {
   return (
     <MKBox component="footer" py={4}>
       <Grid container justifyContent="center">
+        <MKBox
+          mb={7}
+          sx={{
+            backgroundImage: `url(${logo})`,
+            backgroundSize: "contain",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            placeItems: "center",
+            height: "75px",
+            width: "100%",
+            mt: "-25px",
+            mb: "5px"
+          }}
+        />
+        <Grid item xs={12} lg={8} sx={{ textAlign: "center" }}>
+          <MKTypography variant="body2" color={light ? "white" : "secondary"}>
+            Harokopio University of Athens is a Higher Education Institution founded in 1990.
+          </MKTypography>
+        </Grid>
         {/* <Grid item xs={10} lg={8}>
           <Stack
             direction="row"
@@ -78,6 +99,7 @@ function CenteredFooter({ company, links, socials, light }) {
           </Stack>
         </Grid> */}
         <Grid item xs={12} lg={8}>
+        <Divider variant="middle" component="li" sx={{ width: '50%', margin: '0 auto' }} />
           <Stack display="flex" direction="row" justifyContent="center" spacing={3} mt={1} mb={3}>
             {renderSocials}
           </Stack>

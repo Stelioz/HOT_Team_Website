@@ -18,8 +18,8 @@ Harokopio Open Technologies (HOT), created in 2018, embodies a spirit of innovat
 2) Deploy the build folder to the server.
 <br/>
 
-## Troubleshooting routing
-Navigate to your server directory where `intex.html` is located. Create a file named `.htaccess` with the following code save the changes.
+## Troubleshoot routing
+Navigate to your server directory where `intex.html` is located. Create a file named `.htaccess` with the following code and save the changes.
    ```
    <IfModule mod_rewrite.c>
        RewriteEngine On
